@@ -145,6 +145,7 @@ MATRIX_DATA
 ```
 
 and when the matrix is **complex**:
+
 $$
 A = \begin{pmatrix} 
 1+2i & -3+4i \\
