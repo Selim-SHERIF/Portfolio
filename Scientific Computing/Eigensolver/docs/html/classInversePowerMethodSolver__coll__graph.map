@@ -1,0 +1,5 @@
+<map id="InversePowerMethodSolver&lt; MatrixType, T &gt;" name="InversePowerMethodSolver&lt; MatrixType, T &gt;">
+<area shape="rect" id="node1" title="Solver for computing an eigenvalue close to a given shift using the Inverse Power Method." alt="" coords="5,536,231,643"/>
+<area shape="rect" id="node2" href="$classSolver.html" title="Base class for eigenvalue solvers." alt="" coords="27,307,209,487"/>
+<area shape="rect" id="node3" href="$classInput.html" title="Class to handle numerical input parameters and matrices from a file." alt="" coords="33,5,203,244"/>
+</map>

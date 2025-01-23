@@ -1,0 +1,66 @@
+\hypertarget{main_8cpp}{}\doxysection{src/main.cpp File Reference}
+\label{main_8cpp}\index{src/main.cpp@{src/main.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$stdexcept$>$}\newline
+{\ttfamily \#include \char`\"{}input.\+hpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}solver.\+hpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}output.\+hpp\char`\"{}}\newline
+Include dependency graph for main.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename Solver\+Type , typename T $>$ }\\void \mbox{\hyperlink{main_8cpp_aacbe14b2ba49d1a2e57185ffbe1ee5c1}{Solve\+And\+Write}} (\mbox{\hyperlink{classInput}{Input}} \&input\+File, \mbox{\hyperlink{classOutput}{Output}} \&output\+Manager, const std\+::string \&method\+Name)
+\begin{DoxyCompactList}\small\item\em Template function to execute a solver and handle results or errors. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_8cpp_a0ddf1224851353fc92bfbff6f499fa97}{main}} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{main_8cpp_a0ddf1224851353fc92bfbff6f499fa97}\label{main_8cpp_a0ddf1224851353fc92bfbff6f499fa97}} 
+\index{main.cpp@{main.cpp}!main@{main}}
+\index{main@{main}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$}]{argv\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+References Output\+::\+Display\+Error(), Input\+::\+Get\+Is\+Complex(), Input\+::\+Get\+Method(), Output\+::\+Open\+File(), Output\+::\+Print\+Header(), Input\+::\+Read\+File(), Output\+::\+Save\+To\+File(), Output\+::\+Write\+Summary(), and Output\+::\+Write\+To\+File().
+
+\mbox{\Hypertarget{main_8cpp_aacbe14b2ba49d1a2e57185ffbe1ee5c1}\label{main_8cpp_aacbe14b2ba49d1a2e57185ffbe1ee5c1}} 
+\index{main.cpp@{main.cpp}!SolveAndWrite@{SolveAndWrite}}
+\index{SolveAndWrite@{SolveAndWrite}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{SolveAndWrite()}{SolveAndWrite()}}
+{\footnotesize\ttfamily template$<$typename Solver\+Type , typename T $>$ \\
+void Solve\+And\+Write (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classInput}{Input}} \&}]{input\+File,  }\item[{\mbox{\hyperlink{classOutput}{Output}} \&}]{output\+Manager,  }\item[{const std\+::string \&}]{method\+Name }\end{DoxyParamCaption})}
+
+
+
+Template function to execute a solver and handle results or errors. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em Solver\+Type} & The solver class type. \\
+\hline
+{\em T} & The type of the eigenvalue result (e.\+g., double, std\+::complex$<$double$>$, or Eigen vector). \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em input\+File} & The input object with the problem definition. \\
+\hline
+{\em output\+Manager} & The output manager for logging and saving results. \\
+\hline
+{\em method\+Name} & The name of the method (e.\+g., \char`\"{}\+Power Method\char`\"{}). \\
+\hline
+\end{DoxyParams}
+
+
+References Output\+::\+Display\+Error(), Output\+::\+Write\+Eigenvalue(), and Output\+::\+Write\+To\+File().
+

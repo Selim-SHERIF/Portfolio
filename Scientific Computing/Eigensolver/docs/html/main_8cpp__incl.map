@@ -1,0 +1,18 @@
+<map id="src/main.cpp" name="src/main.cpp">
+<area shape="rect" id="node1" title=" " alt="" coords="361,5,466,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="100,80,180,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="411,229,469,256"/>
+<area shape="rect" id="node4" title=" " alt="" coords="614,80,701,107"/>
+<area shape="rect" id="node5" href="$input_8hpp.html" title="Declaration of the Input class for managing numerical parameters and matrices from a file." alt="" coords="320,155,403,181"/>
+<area shape="rect" id="node7" href="$solver_8hpp.html" title="Declaration of eigenvalue solvers using Power Method, Inverse Power Method, and QR Algorithm." alt="" coords="205,80,294,107"/>
+<area shape="rect" id="node10" href="$output_8hpp.html" title="Declaration of the Output class for handling formatted output of eigenvalue solver results." alt="" coords="498,80,590,107"/>
+<area shape="rect" id="node6" title=" " alt="" coords="199,229,302,256"/>
+<area shape="rect" id="node8" title=" " alt="" coords="203,155,295,181"/>
+<area shape="rect" id="node9" href="$solver__imp_8hpp.html" title="Implementation of the Solver classes and their respective eigenvalue computation methods." alt="" coords="5,155,128,181"/>
+<area shape="rect" id="node11" title=" " alt="" coords="529,155,602,181"/>
+<area shape="rect" id="node12" title=" " alt="" coords="627,155,701,181"/>
+<area shape="rect" id="node13" title=" " alt="" coords="726,155,786,181"/>
+<area shape="rect" id="node14" href="$output__imp_8hpp.html" title="Implementation of the Output class methods for managing formatted output." alt="" coords="810,155,934,181"/>
+<area shape="rect" id="node15" title=" " alt="" coords="788,229,863,256"/>
+<area shape="rect" id="node16" title=" " alt="" coords="887,229,951,256"/>
+</map>

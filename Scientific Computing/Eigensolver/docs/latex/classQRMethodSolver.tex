@@ -1,0 +1,90 @@
+\hypertarget{classQRMethodSolver}{}\doxysection{QRMethod\+Solver$<$ Matrix\+Type, T $>$ Class Template Reference}
+\label{classQRMethodSolver}\index{QRMethodSolver$<$ MatrixType, T $>$@{QRMethodSolver$<$ MatrixType, T $>$}}
+
+
+\mbox{\hyperlink{classSolver}{Solver}} for computing all eigenvalues using the QR Algorithm.  
+
+
+
+
+{\ttfamily \#include $<$solver.\+hpp$>$}
+
+
+
+Collaboration diagram for QRMethod\+Solver$<$ Matrix\+Type, T $>$\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=267pt]{classQRMethodSolver__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classQRMethodSolver_abeab874157594c5326008b430ff327d0}{QRMethod\+Solver}} (\mbox{\hyperlink{classInput}{Input}} \&\mbox{\hyperlink{classSolver_abf1e9a47b1e9e24510e2521aeaaef9fc}{m\+Input\+File}})
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+T \mbox{\hyperlink{classQRMethodSolver_a05d5dc4f8e5c4ac2e9eef1dc3b892ba7}{solve}} () const override
+\begin{DoxyCompactList}\small\item\em Solve the eigenvalue problem using the QR algorithm. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+\subsubsection*{template$<$typename Matrix\+Type, typename T$>$\newline
+class QRMethod\+Solver$<$ Matrix\+Type, T $>$}
+
+\mbox{\hyperlink{classSolver}{Solver}} for computing all eigenvalues using the QR Algorithm. 
+
+The QR Algorithm decomposes a given square matrix into Q (orthogonal) and R (upper triangular) matrices iteratively. It computes all eigenvalues of the matrix by transforming it into an upper triangular form, where the diagonal entries represent the eigenvalues.
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em Matrix\+Type} & The type of the matrix (Eigen\+::\+Matrix\+Xd for real or Eigen\+::\+Matrix\+Xcd for complex). \\
+\hline
+{\em T} & The type of the eigenvalues (Eigen\+::\+Vector\+Xd for real or Eigen\+::\+Vector\+Xcd for complex). \\
+\hline
+\end{DoxyTemplParams}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classQRMethodSolver_abeab874157594c5326008b430ff327d0}\label{classQRMethodSolver_abeab874157594c5326008b430ff327d0}} 
+\index{QRMethodSolver$<$ MatrixType, T $>$@{QRMethodSolver$<$ MatrixType, T $>$}!QRMethodSolver@{QRMethodSolver}}
+\index{QRMethodSolver@{QRMethodSolver}!QRMethodSolver$<$ MatrixType, T $>$@{QRMethodSolver$<$ MatrixType, T $>$}}
+\doxysubsubsection{\texorpdfstring{QRMethodSolver()}{QRMethodSolver()}}
+{\footnotesize\ttfamily template$<$typename Matrix\+Type , typename T $>$ \\
+\mbox{\hyperlink{classQRMethodSolver}{QRMethod\+Solver}}$<$ Matrix\+Type, T $>$\+::\mbox{\hyperlink{classQRMethodSolver}{QRMethod\+Solver}} (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classInput}{Input}} \&}]{m\+Input\+File }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [explicit]}}
+
+
+
+Constructor. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classQRMethodSolver_a05d5dc4f8e5c4ac2e9eef1dc3b892ba7}\label{classQRMethodSolver_a05d5dc4f8e5c4ac2e9eef1dc3b892ba7}} 
+\index{QRMethodSolver$<$ MatrixType, T $>$@{QRMethodSolver$<$ MatrixType, T $>$}!solve@{solve}}
+\index{solve@{solve}!QRMethodSolver$<$ MatrixType, T $>$@{QRMethodSolver$<$ MatrixType, T $>$}}
+\doxysubsubsection{\texorpdfstring{solve()}{solve()}}
+{\footnotesize\ttfamily template$<$typename Matrix\+Type , typename T $>$ \\
+T \mbox{\hyperlink{classQRMethodSolver}{QRMethod\+Solver}}$<$ Matrix\+Type, T $>$\+::solve\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Solve the eigenvalue problem using the QR algorithm. 
+
+Compute all eigenvalues using the QR Algorithm.
+
+This iterative algorithm uses QR decomposition to transform the matrix into an upper triangular form. The eigenvalues are then extracted from the diagonal of the resulting matrix.
+
+\begin{DoxyReturn}{Returns}
+A vector containing all eigenvalues of type T (double or std\+::complex$<$double$>$). 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classSolver_a334e87f49f1986ecb46665bbf9eac49e}{Solver$<$ Matrix\+Type, T $>$}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{solver_8hpp}{solver.\+hpp}}\item 
+src/\mbox{\hyperlink{solver__imp_8hpp}{solver\+\_\+imp.\+hpp}}\end{DoxyCompactItemize}

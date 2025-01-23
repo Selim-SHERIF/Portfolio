@@ -1,0 +1,47 @@
+\hypertarget{input_8cpp}{}\doxysection{src/input.cpp File Reference}
+\label{input_8cpp}\index{src/input.cpp@{src/input.cpp}}
+
+
+Implementation of the \mbox{\hyperlink{classInput}{Input}} class for managing numerical parameters and matrices.  
+
+
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$sstream$>$}\newline
+{\ttfamily \#include \char`\"{}input.\+hpp\char`\"{}}\newline
+Include dependency graph for input.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{input_8cpp__incl}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Detailed Description}
+Implementation of the \mbox{\hyperlink{classInput}{Input}} class for managing numerical parameters and matrices. 
+
+This source file provides the implementation of the {\ttfamily \mbox{\hyperlink{classInput}{Input}}} class declared in {\ttfamily \mbox{\hyperlink{input_8hpp}{input.\+hpp}}}. It includes methods for reading and validating numerical parameters and matrix data from a file, as well as parsing real and complex matrices.
+
+Key Implementation Details\+:
+\begin{DoxyItemize}
+\item Uses the Eigen library to store and manipulate matrices.
+\item Performs input validation for numerical parameters and matrix data.
+\item Supports flexible file formats with comments and whitespace handling.
+\end{DoxyItemize}
+
+Example \mbox{\hyperlink{classInput}{Input}} File Format\+: 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{MAX\_ITER 500}
+\DoxyCodeLine{TOLERANCE 1e-\/10}
+\DoxyCodeLine{SHIFT 0.5}
+\DoxyCodeLine{COMPLEX 0}
+\DoxyCodeLine{METHOD qr}
+\DoxyCodeLine{MATRIX\_DATA}
+\DoxyCodeLine{3 3}
+\DoxyCodeLine{1.0 2.0 3.0}
+\DoxyCodeLine{4.0 5.0 6.0}
+\DoxyCodeLine{7.0 8.0 9.0}
+
+\end{DoxyCode}
+ 

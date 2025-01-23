@@ -1,0 +1,347 @@
+\hypertarget{test_8cpp}{}\doxysection{test/test.cpp File Reference}
+\label{test_8cpp}\index{test/test.cpp@{test/test.cpp}}
+{\ttfamily \#include $<$gtest/gtest.\+h$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include \char`\"{}../src/input.\+hpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../src/solver.\+hpp\char`\"{}}\newline
+Include dependency graph for test.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{test_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classInputTest}{Input\+Test}}
+\begin{DoxyCompactList}\small\item\em Google Test fixture for testing the {\ttfamily \mbox{\hyperlink{classInput}{Input}}} class. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classSolverTest}{Solver\+Test}}
+\begin{DoxyCompactList}\small\item\em Google Test fixture for testing various solver classes. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{test_8cpp_a789e3fb4ecc830224627139046cc9c75}{Write\+To\+Temp\+File}} (const std\+::string \&file\+Name, const std\+::string \&content)
+\begin{DoxyCompactList}\small\item\em Creates and writes content to a temporary file. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{test_8cpp_ab9c57345e6e115ac51759ca93c12d819}{Clean\+Up\+Temp\+File}} (const std\+::string \&file\+Name)
+\begin{DoxyCompactList}\small\item\em Deletes a temporary file. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{test_8cpp_ac82798a289e3cc3b92d172b9cebefd98}{TEST\+\_\+F}} (\mbox{\hyperlink{classInputTest}{Input\+Test}}, Parses\+Valid\+Real\+Matrix)
+\begin{DoxyCompactList}\small\item\em Validates parsing a real matrix from input. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{test_8cpp_abda064b1aba16c73979da4db3438b31b}{TEST\+\_\+F}} (\mbox{\hyperlink{classInputTest}{Input\+Test}}, Parses\+Valid\+Complex\+Matrix)
+\begin{DoxyCompactList}\small\item\em Validates parsing a complex matrix from input. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{test_8cpp_af664ea7247f682da42b41bc40b8ddba7}{TEST\+\_\+F}} (\mbox{\hyperlink{classInputTest}{Input\+Test}}, Throws\+For\+Invalid\+Matrix\+Dimensions)
+\begin{DoxyCompactList}\small\item\em Validates exception is thrown for invalid matrix dimensions. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{test_8cpp_a8d3dcd7d4681354efc3bb93bad619d9f}{TEST\+\_\+F}} (\mbox{\hyperlink{classInputTest}{Input\+Test}}, Throws\+For\+Invalid\+Method)
+\begin{DoxyCompactList}\small\item\em Validates exception is thrown for invalid METHOD parameter. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{test_8cpp_a27a7fe9dd28a8175bf627528cf949973}{TEST\+\_\+F}} (\mbox{\hyperlink{classInputTest}{Input\+Test}}, Parses\+Singular\+Matrix)
+\begin{DoxyCompactList}\small\item\em Validates parsing a singular matrix from input. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{test_8cpp_a8f18a391189aad7cfcb64ce6b2e5424c}{TEST\+\_\+F}} (\mbox{\hyperlink{classInputTest}{Input\+Test}}, Throws\+For\+Missing\+Matrix\+Data)
+\begin{DoxyCompactList}\small\item\em Validates exception is thrown when MATRIX\+\_\+\+DATA is missing. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{test_8cpp_a1fce43136540c2c8d67fe57a48561e83}{TEST\+\_\+F}} (\mbox{\hyperlink{classSolverTest}{Solver\+Test}}, Power\+Method\+Solver\+Real\+Matrix)
+\begin{DoxyCompactList}\small\item\em Validates the Power Method solver with a real matrix. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{test_8cpp_a6cd428b2f530e50da75b03874f909fc4}{TEST\+\_\+F}} (\mbox{\hyperlink{classSolverTest}{Solver\+Test}}, Inverse\+Power\+Method\+Solver\+Real\+Matrix)
+\begin{DoxyCompactList}\small\item\em Validates the Inverse Power Method solver with a real matrix. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{test_8cpp_a9e6c3322cba11719ebb75248f85d2895}{TEST\+\_\+F}} (\mbox{\hyperlink{classSolverTest}{Solver\+Test}}, QRMethod\+Solver\+Real\+Matrix)
+\begin{DoxyCompactList}\small\item\em Validates the QR Method solver with a real matrix. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{test_8cpp_a4389b25dc7882cbcfd6d76718571e68d}{TEST\+\_\+F}} (\mbox{\hyperlink{classSolverTest}{Solver\+Test}}, Power\+Method\+Solver\+Complex\+Matrix)
+\begin{DoxyCompactList}\small\item\em Validates the Power Method solver with a complex matrix. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{test_8cpp_a2538cf0e0d9aa2980727f00fdfc08118}{TEST\+\_\+F}} (\mbox{\hyperlink{classSolverTest}{Solver\+Test}}, QRMethod\+Solver\+Complex\+Matrix)
+\begin{DoxyCompactList}\small\item\em Validates the QR Method solver with a complex matrix. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{test_8cpp_a89ef00250091cb3c354e3c79d91cf51a}{Run\+Solver\+And\+Throw}} (\mbox{\hyperlink{classInput}{Input}} \&input)
+\begin{DoxyCompactList}\small\item\em Executes the Inverse Power Method \mbox{\hyperlink{classSolver}{Solver}} and propagates exceptions. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{test_8cpp_adb87e53cbc0365d0811117e1550dad8b}{TEST\+\_\+F}} (\mbox{\hyperlink{classSolverTest}{Solver\+Test}}, Inverse\+Power\+Method\+Solver\+Singular\+Real\+Matrix\+Throws)
+\begin{DoxyCompactList}\small\item\em Validates exception handling for singular real matrices in the Inverse Power Method solver. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{test_8cpp_aca701873d6b96de8eaac9bcb39c520a7}{TEST\+\_\+F}} (\mbox{\hyperlink{classSolverTest}{Solver\+Test}}, Inverse\+Power\+Method\+Solver\+Singular\+Real\+Matrix\+Throws\+With\+Shift)
+\begin{DoxyCompactList}\small\item\em Validates exception handling for singular real matrices in the Inverse Power Method solver with a non-\/zero shift. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{test_8cpp_a29872aa5ec4da5e3debdbf1b498dd331}{TEST\+\_\+F}} (\mbox{\hyperlink{classSolverTest}{Solver\+Test}}, QRConvergence\+Test)
+\begin{DoxyCompactList}\small\item\em Validates the QR Method solver\textquotesingle{}s convergence for a simple real matrix. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{test_8cpp_ab9c57345e6e115ac51759ca93c12d819}\label{test_8cpp_ab9c57345e6e115ac51759ca93c12d819}} 
+\index{test.cpp@{test.cpp}!CleanUpTempFile@{CleanUpTempFile}}
+\index{CleanUpTempFile@{CleanUpTempFile}!test.cpp@{test.cpp}}
+\doxysubsubsection{\texorpdfstring{CleanUpTempFile()}{CleanUpTempFile()}}
+{\footnotesize\ttfamily void Clean\+Up\+Temp\+File (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{file\+Name }\end{DoxyParamCaption})}
+
+
+
+Deletes a temporary file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & Name of the file to delete. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{test_8cpp_a89ef00250091cb3c354e3c79d91cf51a}\label{test_8cpp_a89ef00250091cb3c354e3c79d91cf51a}} 
+\index{test.cpp@{test.cpp}!RunSolverAndThrow@{RunSolverAndThrow}}
+\index{RunSolverAndThrow@{RunSolverAndThrow}!test.cpp@{test.cpp}}
+\doxysubsubsection{\texorpdfstring{RunSolverAndThrow()}{RunSolverAndThrow()}}
+{\footnotesize\ttfamily void Run\+Solver\+And\+Throw (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classInput}{Input}} \&}]{input }\end{DoxyParamCaption})}
+
+
+
+Executes the Inverse Power Method \mbox{\hyperlink{classSolver}{Solver}} and propagates exceptions. 
+
+This function is designed to test scenarios where the solver is expected to fail (or not)due to invalid input (e.\+g., singular matrices). It is used to test the difference between singular matrices and the case where the file doesn\textquotesingle{}t converge .
+
+
+\begin{DoxyParams}{Parameters}
+{\em input} & An instance of the {\ttfamily \mbox{\hyperlink{classInput}{Input}}} class containing solver configuration. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em std\+::runtime\+\_\+error} & If the solver encounters an issue during execution. \\
+\hline
+\end{DoxyExceptions}
+
+
+References Inverse\+Power\+Method\+Solver$<$ Matrix\+Type, T $>$\+::solve().
+
+\mbox{\Hypertarget{test_8cpp_a27a7fe9dd28a8175bf627528cf949973}\label{test_8cpp_a27a7fe9dd28a8175bf627528cf949973}} 
+\index{test.cpp@{test.cpp}!TEST\_F@{TEST\_F}}
+\index{TEST\_F@{TEST\_F}!test.cpp@{test.cpp}}
+\doxysubsubsection{\texorpdfstring{TEST\_F()}{TEST\_F()}\hspace{0.1cm}{\footnotesize\ttfamily [1/14]}}
+{\footnotesize\ttfamily TEST\+\_\+F (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classInputTest}{Input\+Test}}}]{,  }\item[{Parses\+Singular\+Matrix}]{ }\end{DoxyParamCaption})}
+
+
+
+Validates parsing a singular matrix from input. 
+
+\begin{DoxyRefDesc}{Test}
+\item[\mbox{\hyperlink{test__test000005}{Test}}]Input\+Test\+::\+Parses\+Singular\+Matrix \end{DoxyRefDesc}
+\mbox{\Hypertarget{test_8cpp_abda064b1aba16c73979da4db3438b31b}\label{test_8cpp_abda064b1aba16c73979da4db3438b31b}} 
+\index{test.cpp@{test.cpp}!TEST\_F@{TEST\_F}}
+\index{TEST\_F@{TEST\_F}!test.cpp@{test.cpp}}
+\doxysubsubsection{\texorpdfstring{TEST\_F()}{TEST\_F()}\hspace{0.1cm}{\footnotesize\ttfamily [2/14]}}
+{\footnotesize\ttfamily TEST\+\_\+F (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classInputTest}{Input\+Test}}}]{,  }\item[{Parses\+Valid\+Complex\+Matrix}]{ }\end{DoxyParamCaption})}
+
+
+
+Validates parsing a complex matrix from input. 
+
+\begin{DoxyRefDesc}{Test}
+\item[\mbox{\hyperlink{test__test000002}{Test}}]Input\+Test\+::\+Parses\+Valid\+Complex\+Matrix \end{DoxyRefDesc}
+\mbox{\Hypertarget{test_8cpp_ac82798a289e3cc3b92d172b9cebefd98}\label{test_8cpp_ac82798a289e3cc3b92d172b9cebefd98}} 
+\index{test.cpp@{test.cpp}!TEST\_F@{TEST\_F}}
+\index{TEST\_F@{TEST\_F}!test.cpp@{test.cpp}}
+\doxysubsubsection{\texorpdfstring{TEST\_F()}{TEST\_F()}\hspace{0.1cm}{\footnotesize\ttfamily [3/14]}}
+{\footnotesize\ttfamily TEST\+\_\+F (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classInputTest}{Input\+Test}}}]{,  }\item[{Parses\+Valid\+Real\+Matrix}]{ }\end{DoxyParamCaption})}
+
+
+
+Validates parsing a real matrix from input. 
+
+\begin{DoxyRefDesc}{Test}
+\item[\mbox{\hyperlink{test__test000001}{Test}}]Input\+Test\+::\+Parses\+Valid\+Real\+Matrix \end{DoxyRefDesc}
+\mbox{\Hypertarget{test_8cpp_af664ea7247f682da42b41bc40b8ddba7}\label{test_8cpp_af664ea7247f682da42b41bc40b8ddba7}} 
+\index{test.cpp@{test.cpp}!TEST\_F@{TEST\_F}}
+\index{TEST\_F@{TEST\_F}!test.cpp@{test.cpp}}
+\doxysubsubsection{\texorpdfstring{TEST\_F()}{TEST\_F()}\hspace{0.1cm}{\footnotesize\ttfamily [4/14]}}
+{\footnotesize\ttfamily TEST\+\_\+F (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classInputTest}{Input\+Test}}}]{,  }\item[{Throws\+For\+Invalid\+Matrix\+Dimensions}]{ }\end{DoxyParamCaption})}
+
+
+
+Validates exception is thrown for invalid matrix dimensions. 
+
+\begin{DoxyRefDesc}{Test}
+\item[\mbox{\hyperlink{test__test000003}{Test}}]Input\+Test\+::\+Throws\+For\+Invalid\+Matrix\+Dimensions \end{DoxyRefDesc}
+\mbox{\Hypertarget{test_8cpp_a8d3dcd7d4681354efc3bb93bad619d9f}\label{test_8cpp_a8d3dcd7d4681354efc3bb93bad619d9f}} 
+\index{test.cpp@{test.cpp}!TEST\_F@{TEST\_F}}
+\index{TEST\_F@{TEST\_F}!test.cpp@{test.cpp}}
+\doxysubsubsection{\texorpdfstring{TEST\_F()}{TEST\_F()}\hspace{0.1cm}{\footnotesize\ttfamily [5/14]}}
+{\footnotesize\ttfamily TEST\+\_\+F (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classInputTest}{Input\+Test}}}]{,  }\item[{Throws\+For\+Invalid\+Method}]{ }\end{DoxyParamCaption})}
+
+
+
+Validates exception is thrown for invalid METHOD parameter. 
+
+\begin{DoxyRefDesc}{Test}
+\item[\mbox{\hyperlink{test__test000004}{Test}}]Input\+Test\+::\+Throws\+For\+Invalid\+Method \end{DoxyRefDesc}
+\mbox{\Hypertarget{test_8cpp_a8f18a391189aad7cfcb64ce6b2e5424c}\label{test_8cpp_a8f18a391189aad7cfcb64ce6b2e5424c}} 
+\index{test.cpp@{test.cpp}!TEST\_F@{TEST\_F}}
+\index{TEST\_F@{TEST\_F}!test.cpp@{test.cpp}}
+\doxysubsubsection{\texorpdfstring{TEST\_F()}{TEST\_F()}\hspace{0.1cm}{\footnotesize\ttfamily [6/14]}}
+{\footnotesize\ttfamily TEST\+\_\+F (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classInputTest}{Input\+Test}}}]{,  }\item[{Throws\+For\+Missing\+Matrix\+Data}]{ }\end{DoxyParamCaption})}
+
+
+
+Validates exception is thrown when MATRIX\+\_\+\+DATA is missing. 
+
+\begin{DoxyRefDesc}{Test}
+\item[\mbox{\hyperlink{test__test000006}{Test}}]Input\+Test\+::\+Throws\+For\+Missing\+Matrix\+Data \end{DoxyRefDesc}
+\mbox{\Hypertarget{test_8cpp_a6cd428b2f530e50da75b03874f909fc4}\label{test_8cpp_a6cd428b2f530e50da75b03874f909fc4}} 
+\index{test.cpp@{test.cpp}!TEST\_F@{TEST\_F}}
+\index{TEST\_F@{TEST\_F}!test.cpp@{test.cpp}}
+\doxysubsubsection{\texorpdfstring{TEST\_F()}{TEST\_F()}\hspace{0.1cm}{\footnotesize\ttfamily [7/14]}}
+{\footnotesize\ttfamily TEST\+\_\+F (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classSolverTest}{Solver\+Test}}}]{,  }\item[{Inverse\+Power\+Method\+Solver\+Real\+Matrix}]{ }\end{DoxyParamCaption})}
+
+
+
+Validates the Inverse Power Method solver with a real matrix. 
+
+\begin{DoxyRefDesc}{Test}
+\item[\mbox{\hyperlink{test__test000008}{Test}}]Solver\+Test\+::\+Inverse\+Power\+Method\+Solver\+Real\+Matrix \end{DoxyRefDesc}
+
+
+Tests that the solver computes the eigenvalue closest to a given shift. $<$ Eigenvalue closest to shift
+
+References Inverse\+Power\+Method\+Solver$<$ Matrix\+Type, T $>$\+::solve().
+
+\mbox{\Hypertarget{test_8cpp_adb87e53cbc0365d0811117e1550dad8b}\label{test_8cpp_adb87e53cbc0365d0811117e1550dad8b}} 
+\index{test.cpp@{test.cpp}!TEST\_F@{TEST\_F}}
+\index{TEST\_F@{TEST\_F}!test.cpp@{test.cpp}}
+\doxysubsubsection{\texorpdfstring{TEST\_F()}{TEST\_F()}\hspace{0.1cm}{\footnotesize\ttfamily [8/14]}}
+{\footnotesize\ttfamily TEST\+\_\+F (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classSolverTest}{Solver\+Test}}}]{,  }\item[{Inverse\+Power\+Method\+Solver\+Singular\+Real\+Matrix\+Throws}]{ }\end{DoxyParamCaption})}
+
+
+
+Validates exception handling for singular real matrices in the Inverse Power Method solver. 
+
+\begin{DoxyRefDesc}{Test}
+\item[\mbox{\hyperlink{test__test000012}{Test}}]Solver\+Test\+::\+Inverse\+Power\+Method\+Solver\+Singular\+Real\+Matrix\+Throws \end{DoxyRefDesc}
+
+
+Tests that the solver throws a runtime error when solving a singular matrix with a shift of 0. 
+
+References Run\+Solver\+And\+Throw().
+
+\mbox{\Hypertarget{test_8cpp_aca701873d6b96de8eaac9bcb39c520a7}\label{test_8cpp_aca701873d6b96de8eaac9bcb39c520a7}} 
+\index{test.cpp@{test.cpp}!TEST\_F@{TEST\_F}}
+\index{TEST\_F@{TEST\_F}!test.cpp@{test.cpp}}
+\doxysubsubsection{\texorpdfstring{TEST\_F()}{TEST\_F()}\hspace{0.1cm}{\footnotesize\ttfamily [9/14]}}
+{\footnotesize\ttfamily TEST\+\_\+F (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classSolverTest}{Solver\+Test}}}]{,  }\item[{Inverse\+Power\+Method\+Solver\+Singular\+Real\+Matrix\+Throws\+With\+Shift}]{ }\end{DoxyParamCaption})}
+
+
+
+Validates exception handling for singular real matrices in the Inverse Power Method solver with a non-\/zero shift. 
+
+\begin{DoxyRefDesc}{Test}
+\item[\mbox{\hyperlink{test__test000013}{Test}}]Solver\+Test\+::\+Inverse\+Power\+Method\+Solver\+Singular\+Real\+Matrix\+Throws\+With\+Shift \end{DoxyRefDesc}
+
+
+Ensures the solver throws a runtime error even when a shift (e.\+g., 2.\+0) is applied. 
+
+References Run\+Solver\+And\+Throw().
+
+\mbox{\Hypertarget{test_8cpp_a4389b25dc7882cbcfd6d76718571e68d}\label{test_8cpp_a4389b25dc7882cbcfd6d76718571e68d}} 
+\index{test.cpp@{test.cpp}!TEST\_F@{TEST\_F}}
+\index{TEST\_F@{TEST\_F}!test.cpp@{test.cpp}}
+\doxysubsubsection{\texorpdfstring{TEST\_F()}{TEST\_F()}\hspace{0.1cm}{\footnotesize\ttfamily [10/14]}}
+{\footnotesize\ttfamily TEST\+\_\+F (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classSolverTest}{Solver\+Test}}}]{,  }\item[{Power\+Method\+Solver\+Complex\+Matrix}]{ }\end{DoxyParamCaption})}
+
+
+
+Validates the Power Method solver with a complex matrix. 
+
+\begin{DoxyRefDesc}{Test}
+\item[\mbox{\hyperlink{test__test000010}{Test}}]Solver\+Test\+::\+Power\+Method\+Solver\+Complex\+Matrix \end{DoxyRefDesc}
+
+
+Ensures the solver correctly computes the largest eigenvalue with both real and imaginary parts. $<$ Real part of the largest eigenvalue.
+
+$<$ Imaginary part of the largest eigenvalue.
+
+References Power\+Method\+Solver$<$ Matrix\+Type, T $>$\+::solve().
+
+\mbox{\Hypertarget{test_8cpp_a1fce43136540c2c8d67fe57a48561e83}\label{test_8cpp_a1fce43136540c2c8d67fe57a48561e83}} 
+\index{test.cpp@{test.cpp}!TEST\_F@{TEST\_F}}
+\index{TEST\_F@{TEST\_F}!test.cpp@{test.cpp}}
+\doxysubsubsection{\texorpdfstring{TEST\_F()}{TEST\_F()}\hspace{0.1cm}{\footnotesize\ttfamily [11/14]}}
+{\footnotesize\ttfamily TEST\+\_\+F (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classSolverTest}{Solver\+Test}}}]{,  }\item[{Power\+Method\+Solver\+Real\+Matrix}]{ }\end{DoxyParamCaption})}
+
+
+
+Validates the Power Method solver with a real matrix. 
+
+\begin{DoxyRefDesc}{Test}
+\item[\mbox{\hyperlink{test__test000007}{Test}}]Solver\+Test\+::\+Power\+Method\+Solver\+Real\+Matrix \end{DoxyRefDesc}
+
+
+Tests that the solver correctly computes the largest eigenvalue. $<$ Largest eigenvalue
+
+References Power\+Method\+Solver$<$ Matrix\+Type, T $>$\+::solve().
+
+\mbox{\Hypertarget{test_8cpp_a29872aa5ec4da5e3debdbf1b498dd331}\label{test_8cpp_a29872aa5ec4da5e3debdbf1b498dd331}} 
+\index{test.cpp@{test.cpp}!TEST\_F@{TEST\_F}}
+\index{TEST\_F@{TEST\_F}!test.cpp@{test.cpp}}
+\doxysubsubsection{\texorpdfstring{TEST\_F()}{TEST\_F()}\hspace{0.1cm}{\footnotesize\ttfamily [12/14]}}
+{\footnotesize\ttfamily TEST\+\_\+F (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classSolverTest}{Solver\+Test}}}]{,  }\item[{QRConvergence\+Test}]{ }\end{DoxyParamCaption})}
+
+
+
+Validates the QR Method solver\textquotesingle{}s convergence for a simple real matrix. 
+
+\begin{DoxyRefDesc}{Test}
+\item[\mbox{\hyperlink{test__test000014}{Test}}]Solver\+Test\+::\+QRConvergence\+Test \end{DoxyRefDesc}
+
+
+Ensures the solver runs without throwing any errors when handling a non-\/singular matrix. 
+
+References Run\+Solver\+And\+Throw().
+
+\mbox{\Hypertarget{test_8cpp_a2538cf0e0d9aa2980727f00fdfc08118}\label{test_8cpp_a2538cf0e0d9aa2980727f00fdfc08118}} 
+\index{test.cpp@{test.cpp}!TEST\_F@{TEST\_F}}
+\index{TEST\_F@{TEST\_F}!test.cpp@{test.cpp}}
+\doxysubsubsection{\texorpdfstring{TEST\_F()}{TEST\_F()}\hspace{0.1cm}{\footnotesize\ttfamily [13/14]}}
+{\footnotesize\ttfamily TEST\+\_\+F (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classSolverTest}{Solver\+Test}}}]{,  }\item[{QRMethod\+Solver\+Complex\+Matrix}]{ }\end{DoxyParamCaption})}
+
+
+
+Validates the QR Method solver with a complex matrix. 
+
+\begin{DoxyRefDesc}{Test}
+\item[\mbox{\hyperlink{test__test000011}{Test}}]Solver\+Test\+::\+QRMethod\+Solver\+Complex\+Matrix \end{DoxyRefDesc}
+
+
+Ensures the solver computes all eigenvalues accurately. $<$ Ensure correct result size.
+
+References QRMethod\+Solver$<$ Matrix\+Type, T $>$\+::solve().
+
+\mbox{\Hypertarget{test_8cpp_a9e6c3322cba11719ebb75248f85d2895}\label{test_8cpp_a9e6c3322cba11719ebb75248f85d2895}} 
+\index{test.cpp@{test.cpp}!TEST\_F@{TEST\_F}}
+\index{TEST\_F@{TEST\_F}!test.cpp@{test.cpp}}
+\doxysubsubsection{\texorpdfstring{TEST\_F()}{TEST\_F()}\hspace{0.1cm}{\footnotesize\ttfamily [14/14]}}
+{\footnotesize\ttfamily TEST\+\_\+F (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classSolverTest}{Solver\+Test}}}]{,  }\item[{QRMethod\+Solver\+Real\+Matrix}]{ }\end{DoxyParamCaption})}
+
+
+
+Validates the QR Method solver with a real matrix. 
+
+\begin{DoxyRefDesc}{Test}
+\item[\mbox{\hyperlink{test__test000009}{Test}}]Solver\+Test\+::\+QRMethod\+Solver\+Real\+Matrix \end{DoxyRefDesc}
+
+
+Ensures the solver computes all eigenvalues accurately. $<$ Ensure correct result size.
+
+$<$ Largest eigenvalue.
+
+$<$ Middle eigenvalue.
+
+$<$ Smallest eigenvalue.
+
+References QRMethod\+Solver$<$ Matrix\+Type, T $>$\+::solve().
+
+\mbox{\Hypertarget{test_8cpp_a789e3fb4ecc830224627139046cc9c75}\label{test_8cpp_a789e3fb4ecc830224627139046cc9c75}} 
+\index{test.cpp@{test.cpp}!WriteToTempFile@{WriteToTempFile}}
+\index{WriteToTempFile@{WriteToTempFile}!test.cpp@{test.cpp}}
+\doxysubsubsection{\texorpdfstring{WriteToTempFile()}{WriteToTempFile()}}
+{\footnotesize\ttfamily void Write\+To\+Temp\+File (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{file\+Name,  }\item[{const std\+::string \&}]{content }\end{DoxyParamCaption})}
+
+
+
+Creates and writes content to a temporary file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & Name of the file to create. \\
+\hline
+{\em content} & Content to write to the file. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em std\+::runtime\+\_\+error} & If the file cannot be created. \\
+\hline
+\end{DoxyExceptions}

@@ -1,0 +1,90 @@
+\hypertarget{classPowerMethodSolver}{}\doxysection{Power\+Method\+Solver$<$ Matrix\+Type, T $>$ Class Template Reference}
+\label{classPowerMethodSolver}\index{PowerMethodSolver$<$ MatrixType, T $>$@{PowerMethodSolver$<$ MatrixType, T $>$}}
+
+
+\mbox{\hyperlink{classSolver}{Solver}} for computing the dominant eigenvalue using the Power Method.  
+
+
+
+
+{\ttfamily \#include $<$solver.\+hpp$>$}
+
+
+
+Collaboration diagram for Power\+Method\+Solver$<$ Matrix\+Type, T $>$\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classPowerMethodSolver__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classPowerMethodSolver_a840d84f8474acf003b2ea4961b06070a}{Power\+Method\+Solver}} (\mbox{\hyperlink{classInput}{Input}} \&\mbox{\hyperlink{classSolver_abf1e9a47b1e9e24510e2521aeaaef9fc}{m\+Input\+File}})
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+T \mbox{\hyperlink{classPowerMethodSolver_a9d1cf3337409e9494affc61e506a3b25}{solve}} () const override
+\begin{DoxyCompactList}\small\item\em Solve the eigenvalue problem using the Power Method. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+\subsubsection*{template$<$typename Matrix\+Type, typename T$>$\newline
+class Power\+Method\+Solver$<$ Matrix\+Type, T $>$}
+
+\mbox{\hyperlink{classSolver}{Solver}} for computing the dominant eigenvalue using the Power Method. 
+
+The Power Method iteratively computes the dominant eigenvalue (the eigenvalue with the largest absolute value) and its corresponding eigenvector for a given square matrix. This solver is suitable for real and complex matrices and relies on a tolerance threshold and a maximum number of iterations to determine convergence.
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em Matrix\+Type} & The type of the matrix (Eigen\+::\+Matrix\+Xd for real or Eigen\+::\+Matrix\+Xcd for complex). \\
+\hline
+{\em T} & The type of the eigenvalue (double for real or std\+::complex$<$double$>$ for complex). \\
+\hline
+\end{DoxyTemplParams}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classPowerMethodSolver_a840d84f8474acf003b2ea4961b06070a}\label{classPowerMethodSolver_a840d84f8474acf003b2ea4961b06070a}} 
+\index{PowerMethodSolver$<$ MatrixType, T $>$@{PowerMethodSolver$<$ MatrixType, T $>$}!PowerMethodSolver@{PowerMethodSolver}}
+\index{PowerMethodSolver@{PowerMethodSolver}!PowerMethodSolver$<$ MatrixType, T $>$@{PowerMethodSolver$<$ MatrixType, T $>$}}
+\doxysubsubsection{\texorpdfstring{PowerMethodSolver()}{PowerMethodSolver()}}
+{\footnotesize\ttfamily template$<$typename Matrix\+Type , typename T $>$ \\
+\mbox{\hyperlink{classPowerMethodSolver}{Power\+Method\+Solver}}$<$ Matrix\+Type, T $>$\+::\mbox{\hyperlink{classPowerMethodSolver}{Power\+Method\+Solver}} (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classInput}{Input}} \&}]{m\+Input\+File }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [explicit]}}
+
+
+
+Constructor. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classPowerMethodSolver_a9d1cf3337409e9494affc61e506a3b25}\label{classPowerMethodSolver_a9d1cf3337409e9494affc61e506a3b25}} 
+\index{PowerMethodSolver$<$ MatrixType, T $>$@{PowerMethodSolver$<$ MatrixType, T $>$}!solve@{solve}}
+\index{solve@{solve}!PowerMethodSolver$<$ MatrixType, T $>$@{PowerMethodSolver$<$ MatrixType, T $>$}}
+\doxysubsubsection{\texorpdfstring{solve()}{solve()}}
+{\footnotesize\ttfamily template$<$typename Matrix\+Type , typename T $>$ \\
+T \mbox{\hyperlink{classPowerMethodSolver}{Power\+Method\+Solver}}$<$ Matrix\+Type, T $>$\+::solve\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Solve the eigenvalue problem using the Power Method. 
+
+Compute the dominant eigenvalue using the Power Method.
+
+This iterative method estimates the largest eigenvalue of the matrix by repeatedly multiplying a vector with the matrix. The eigenvalue is computed using the Rayleigh quotient.
+
+\begin{DoxyReturn}{Returns}
+The dominant eigenvalue of type T (double or std\+::complex$<$double$>$). 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classSolver_a334e87f49f1986ecb46665bbf9eac49e}{Solver$<$ Matrix\+Type, T $>$}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{solver_8hpp}{solver.\+hpp}}\item 
+src/\mbox{\hyperlink{solver__imp_8hpp}{solver\+\_\+imp.\+hpp}}\end{DoxyCompactItemize}

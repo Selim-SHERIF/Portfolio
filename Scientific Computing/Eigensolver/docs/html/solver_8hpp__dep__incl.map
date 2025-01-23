@@ -1,0 +1,6 @@
+<map id="src/solver.hpp" name="src/solver.hpp">
+<area shape="rect" id="node1" title="Declaration of eigenvalue solvers using Power Method, Inverse Power Method, and QR Algorithm." alt="" coords="151,5,263,32"/>
+<area shape="rect" id="node2" href="$main_8cpp.html" title=" " alt="" coords="5,80,111,107"/>
+<area shape="rect" id="node3" href="$solver__imp_8hpp.html" title="Implementation of the Solver classes and their respective eigenvalue computation methods." alt="" coords="135,80,280,107"/>
+<area shape="rect" id="node4" href="$test_8cpp.html" title=" " alt="" coords="304,80,407,107"/>
+</map>

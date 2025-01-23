@@ -1,0 +1,99 @@
+\hypertarget{output_8hpp}{}\doxysection{src/output.hpp File Reference}
+\label{output_8hpp}\index{src/output.hpp@{src/output.hpp}}
+
+
+Declaration of the \mbox{\hyperlink{classOutput}{Output}} class for handling formatted output of eigenvalue solver results.  
+
+
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$sstream$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$utility$>$}\newline
+{\ttfamily \#include \char`\"{}input.\+hpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}output\+\_\+imp.\+hpp\char`\"{}}\newline
+Include dependency graph for output.\+hpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{output_8hpp__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=166pt]{output_8hpp__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classOutput}{Output}}
+\begin{DoxyCompactList}\small\item\em Handles formatted output of eigenvalue solver results. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{output_8hpp_ab702106cf3b3e96750b6845ded4e0299}{RESET}}~\char`\"{}\textbackslash{}033\mbox{[}0m\char`\"{}
+\item 
+\#define \mbox{\hyperlink{output_8hpp_acfbc006ea433ad708fdee3e82996e721}{GREEN}}~\char`\"{}\textbackslash{}033\mbox{[}32m\char`\"{}
+\item 
+\#define \mbox{\hyperlink{output_8hpp_ad243f93c16bc4c1d3e0a13b84421d760}{CYAN}}~\char`\"{}\textbackslash{}033\mbox{[}36m\char`\"{}
+\item 
+\#define \mbox{\hyperlink{output_8hpp_a6f699060902f800f12aaae150f3a708e}{MAGENTA}}~\char`\"{}\textbackslash{}033\mbox{[}35m\char`\"{}
+\item 
+\#define \mbox{\hyperlink{output_8hpp_a26cdbb1a00213c810caccf21cd33a631}{BOLD}}~\char`\"{}\textbackslash{}033\mbox{[}1m\char`\"{}
+\item 
+\#define \mbox{\hyperlink{output_8hpp_a8d23feea868a983c8c2b661e1e16972f}{RED}}~\char`\"{}\textbackslash{}033\mbox{[}31m\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Declaration of the \mbox{\hyperlink{classOutput}{Output}} class for handling formatted output of eigenvalue solver results. 
+
+This header file defines the {\ttfamily \mbox{\hyperlink{classOutput}{Output}}} class, which provides methods for\+:
+\begin{DoxyItemize}
+\item Printing styled headers and results to the console.
+\item Saving results to an external file.
+\item Managing output formatting for both real and complex eigenvalues.
+\item Displaying input summaries and error messages.
+\end{DoxyItemize}
+
+The class leverages ANSI escape codes for styled terminal output and supports detailed formatting for matrices and vectors. 
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{output_8hpp_a26cdbb1a00213c810caccf21cd33a631}\label{output_8hpp_a26cdbb1a00213c810caccf21cd33a631}} 
+\index{output.hpp@{output.hpp}!BOLD@{BOLD}}
+\index{BOLD@{BOLD}!output.hpp@{output.hpp}}
+\doxysubsubsection{\texorpdfstring{BOLD}{BOLD}}
+{\footnotesize\ttfamily \#define BOLD~\char`\"{}\textbackslash{}033\mbox{[}1m\char`\"{}}
+
+\mbox{\Hypertarget{output_8hpp_ad243f93c16bc4c1d3e0a13b84421d760}\label{output_8hpp_ad243f93c16bc4c1d3e0a13b84421d760}} 
+\index{output.hpp@{output.hpp}!CYAN@{CYAN}}
+\index{CYAN@{CYAN}!output.hpp@{output.hpp}}
+\doxysubsubsection{\texorpdfstring{CYAN}{CYAN}}
+{\footnotesize\ttfamily \#define CYAN~\char`\"{}\textbackslash{}033\mbox{[}36m\char`\"{}}
+
+\mbox{\Hypertarget{output_8hpp_acfbc006ea433ad708fdee3e82996e721}\label{output_8hpp_acfbc006ea433ad708fdee3e82996e721}} 
+\index{output.hpp@{output.hpp}!GREEN@{GREEN}}
+\index{GREEN@{GREEN}!output.hpp@{output.hpp}}
+\doxysubsubsection{\texorpdfstring{GREEN}{GREEN}}
+{\footnotesize\ttfamily \#define GREEN~\char`\"{}\textbackslash{}033\mbox{[}32m\char`\"{}}
+
+\mbox{\Hypertarget{output_8hpp_a6f699060902f800f12aaae150f3a708e}\label{output_8hpp_a6f699060902f800f12aaae150f3a708e}} 
+\index{output.hpp@{output.hpp}!MAGENTA@{MAGENTA}}
+\index{MAGENTA@{MAGENTA}!output.hpp@{output.hpp}}
+\doxysubsubsection{\texorpdfstring{MAGENTA}{MAGENTA}}
+{\footnotesize\ttfamily \#define MAGENTA~\char`\"{}\textbackslash{}033\mbox{[}35m\char`\"{}}
+
+\mbox{\Hypertarget{output_8hpp_a8d23feea868a983c8c2b661e1e16972f}\label{output_8hpp_a8d23feea868a983c8c2b661e1e16972f}} 
+\index{output.hpp@{output.hpp}!RED@{RED}}
+\index{RED@{RED}!output.hpp@{output.hpp}}
+\doxysubsubsection{\texorpdfstring{RED}{RED}}
+{\footnotesize\ttfamily \#define RED~\char`\"{}\textbackslash{}033\mbox{[}31m\char`\"{}}
+
+\mbox{\Hypertarget{output_8hpp_ab702106cf3b3e96750b6845ded4e0299}\label{output_8hpp_ab702106cf3b3e96750b6845ded4e0299}} 
+\index{output.hpp@{output.hpp}!RESET@{RESET}}
+\index{RESET@{RESET}!output.hpp@{output.hpp}}
+\doxysubsubsection{\texorpdfstring{RESET}{RESET}}
+{\footnotesize\ttfamily \#define RESET~\char`\"{}\textbackslash{}033\mbox{[}0m\char`\"{}}
+

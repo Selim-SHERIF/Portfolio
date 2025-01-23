@@ -1,0 +1,251 @@
+\hypertarget{classInput}{}\doxysection{Input Class Reference}
+\label{classInput}\index{Input@{Input}}
+
+
+Class to handle numerical input parameters and matrices from a file.  
+
+
+
+
+{\ttfamily \#include $<$input.\+hpp$>$}
+
+
+
+Collaboration diagram for Input\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=208pt]{classInput__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classInput_abae3f379d3f157cf42dc857309832dba}{Input}} ()
+\item 
+Eigen\+::\+Matrix\+Xd \mbox{\hyperlink{classInput_a6c7e26de8a486c016b8c37f8cdd6feb6}{Get\+Real\+Matrix}} () const
+\begin{DoxyCompactList}\small\item\em Get the real matrix. \end{DoxyCompactList}\item 
+Eigen\+::\+Matrix\+Xcd \mbox{\hyperlink{classInput_a3350ed392b96a86ef3a59bbd7d2c474c}{Get\+Complex\+Matrix}} () const
+\begin{DoxyCompactList}\small\item\em Get the complex matrix. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classInput_a21bda09cb0a3af19c2fd9d7ee304a4b3}{Get\+Dimension}} () const
+\begin{DoxyCompactList}\small\item\em Get the dimension of the square matrix. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classInput_a5ba4da448327c95c4e85128e36777347}{Get\+Method}} () const
+\begin{DoxyCompactList}\small\item\em Get the numerical method to be used. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classInput_aced1dd86c0de8ab6dcc8d85e631da0df}{Get\+Is\+Complex}} () const
+\begin{DoxyCompactList}\small\item\em Check whether the matrix is complex or real. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classInput_a4e179931e0fdc025eb931ea0ad88170a}{Get\+Max\+Iter}} () const
+\begin{DoxyCompactList}\small\item\em Get the maximum number of iterations. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classInput_a25ae8bcd7869f401e9f1bf4ed730a673}{Get\+Tolerance}} () const
+\begin{DoxyCompactList}\small\item\em Get the convergence tolerance. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classInput_a795dee07366e0cb5845d9f127f9e285e}{Get\+Shift}} () const
+\begin{DoxyCompactList}\small\item\em Get the shift value for the inverse power method. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classInput_aecd3a50adc9f4527d7c1e5362b43b44a}{Set\+Method}} (std\+::string \&method)
+\begin{DoxyCompactList}\small\item\em Set the numerical method to be used. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classInput_a55073321a4305d5012c1afd8da127d28}{Read\+File}} (const std\+::string \&file\+Name)
+\begin{DoxyCompactList}\small\item\em Read numerical parameters and matrix data from a file. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classInput_ac84d1c3550483bcaa580924b26181018}{Read\+Matrix\+Data}} (std\+::ifstream \&file, int rows, int cols)
+\begin{DoxyCompactList}\small\item\em Read matrix elements from the input file. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class to handle numerical input parameters and matrices from a file. 
+
+The \mbox{\hyperlink{classInput}{Input}} class provides methods to read configuration data and matrices from a file and store them for numerical computations. It supports both real and complex matrices.
+
+\begin{DoxyNote}{Note}
+The matrix must be square, and numerical parameters such as tolerance and maximum iterations have specific constraints. 
+\end{DoxyNote}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classInput_abae3f379d3f157cf42dc857309832dba}\label{classInput_abae3f379d3f157cf42dc857309832dba}} 
+\index{Input@{Input}!Input@{Input}}
+\index{Input@{Input}!Input@{Input}}
+\doxysubsubsection{\texorpdfstring{Input()}{Input()}}
+{\footnotesize\ttfamily Input\+::\+Input (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classInput_a3350ed392b96a86ef3a59bbd7d2c474c}\label{classInput_a3350ed392b96a86ef3a59bbd7d2c474c}} 
+\index{Input@{Input}!GetComplexMatrix@{GetComplexMatrix}}
+\index{GetComplexMatrix@{GetComplexMatrix}!Input@{Input}}
+\doxysubsubsection{\texorpdfstring{GetComplexMatrix()}{GetComplexMatrix()}}
+{\footnotesize\ttfamily Eigen\+::\+Matrix\+Xcd Input\+::\+Get\+Complex\+Matrix (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the complex matrix. 
+
+\begin{DoxyReturn}{Returns}
+A copy of the complex matrix as an Eigen\+::\+Matrix\+Xcd. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classInput_a21bda09cb0a3af19c2fd9d7ee304a4b3}\label{classInput_a21bda09cb0a3af19c2fd9d7ee304a4b3}} 
+\index{Input@{Input}!GetDimension@{GetDimension}}
+\index{GetDimension@{GetDimension}!Input@{Input}}
+\doxysubsubsection{\texorpdfstring{GetDimension()}{GetDimension()}}
+{\footnotesize\ttfamily int Input\+::\+Get\+Dimension (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the dimension of the square matrix. 
+
+\begin{DoxyReturn}{Returns}
+The dimension as an integer. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classInput_aced1dd86c0de8ab6dcc8d85e631da0df}\label{classInput_aced1dd86c0de8ab6dcc8d85e631da0df}} 
+\index{Input@{Input}!GetIsComplex@{GetIsComplex}}
+\index{GetIsComplex@{GetIsComplex}!Input@{Input}}
+\doxysubsubsection{\texorpdfstring{GetIsComplex()}{GetIsComplex()}}
+{\footnotesize\ttfamily bool Input\+::\+Get\+Is\+Complex (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Check whether the matrix is complex or real. 
+
+\begin{DoxyReturn}{Returns}
+True if the matrix is complex, false otherwise. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classInput_a4e179931e0fdc025eb931ea0ad88170a}\label{classInput_a4e179931e0fdc025eb931ea0ad88170a}} 
+\index{Input@{Input}!GetMaxIter@{GetMaxIter}}
+\index{GetMaxIter@{GetMaxIter}!Input@{Input}}
+\doxysubsubsection{\texorpdfstring{GetMaxIter()}{GetMaxIter()}}
+{\footnotesize\ttfamily int Input\+::\+Get\+Max\+Iter (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the maximum number of iterations. 
+
+\begin{DoxyReturn}{Returns}
+The maximum number of iterations as an integer. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classInput_a5ba4da448327c95c4e85128e36777347}\label{classInput_a5ba4da448327c95c4e85128e36777347}} 
+\index{Input@{Input}!GetMethod@{GetMethod}}
+\index{GetMethod@{GetMethod}!Input@{Input}}
+\doxysubsubsection{\texorpdfstring{GetMethod()}{GetMethod()}}
+{\footnotesize\ttfamily std\+::string Input\+::\+Get\+Method (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the numerical method to be used. 
+
+\begin{DoxyReturn}{Returns}
+A string representing the numerical method. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classInput_a6c7e26de8a486c016b8c37f8cdd6feb6}\label{classInput_a6c7e26de8a486c016b8c37f8cdd6feb6}} 
+\index{Input@{Input}!GetRealMatrix@{GetRealMatrix}}
+\index{GetRealMatrix@{GetRealMatrix}!Input@{Input}}
+\doxysubsubsection{\texorpdfstring{GetRealMatrix()}{GetRealMatrix()}}
+{\footnotesize\ttfamily Eigen\+::\+Matrix\+Xd Input\+::\+Get\+Real\+Matrix (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the real matrix. 
+
+\begin{DoxyReturn}{Returns}
+A copy of the real matrix as an Eigen\+::\+Matrix\+Xd. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classInput_a795dee07366e0cb5845d9f127f9e285e}\label{classInput_a795dee07366e0cb5845d9f127f9e285e}} 
+\index{Input@{Input}!GetShift@{GetShift}}
+\index{GetShift@{GetShift}!Input@{Input}}
+\doxysubsubsection{\texorpdfstring{GetShift()}{GetShift()}}
+{\footnotesize\ttfamily double Input\+::\+Get\+Shift (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the shift value for the inverse power method. 
+
+\begin{DoxyReturn}{Returns}
+The shift value as a double. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classInput_a25ae8bcd7869f401e9f1bf4ed730a673}\label{classInput_a25ae8bcd7869f401e9f1bf4ed730a673}} 
+\index{Input@{Input}!GetTolerance@{GetTolerance}}
+\index{GetTolerance@{GetTolerance}!Input@{Input}}
+\doxysubsubsection{\texorpdfstring{GetTolerance()}{GetTolerance()}}
+{\footnotesize\ttfamily double Input\+::\+Get\+Tolerance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the convergence tolerance. 
+
+\begin{DoxyReturn}{Returns}
+The tolerance value as a double. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classInput_a55073321a4305d5012c1afd8da127d28}\label{classInput_a55073321a4305d5012c1afd8da127d28}} 
+\index{Input@{Input}!ReadFile@{ReadFile}}
+\index{ReadFile@{ReadFile}!Input@{Input}}
+\doxysubsubsection{\texorpdfstring{ReadFile()}{ReadFile()}}
+{\footnotesize\ttfamily void Input\+::\+Read\+File (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{file\+Name }\end{DoxyParamCaption})}
+
+
+
+Read numerical parameters and matrix data from a file. 
+
+Parses the input file to initialize the numerical parameters and read the matrix data. The file must adhere to a specific format with clearly defined sections for parameters and the matrix.
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & The name of the input file to read. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em std\+::runtime\+\_\+error} & If the file cannot be opened, contains invalid parameters, or is missing the required MATRIX\+\_\+\+DATA section. \\
+\hline
+\end{DoxyExceptions}
+
+
+References Read\+Matrix\+Data().
+
+\mbox{\Hypertarget{classInput_ac84d1c3550483bcaa580924b26181018}\label{classInput_ac84d1c3550483bcaa580924b26181018}} 
+\index{Input@{Input}!ReadMatrixData@{ReadMatrixData}}
+\index{ReadMatrixData@{ReadMatrixData}!Input@{Input}}
+\doxysubsubsection{\texorpdfstring{ReadMatrixData()}{ReadMatrixData()}}
+{\footnotesize\ttfamily void Input\+::\+Read\+Matrix\+Data (\begin{DoxyParamCaption}\item[{std\+::ifstream \&}]{file,  }\item[{int}]{rows,  }\item[{int}]{cols }\end{DoxyParamCaption})}
+
+
+
+Read matrix elements from the input file. 
+
+Parses matrix data from the file after reading its dimensions. The function supports both real and complex matrices based on the {\ttfamily m\+Is\+Complex} flag.
+
+
+\begin{DoxyParams}{Parameters}
+{\em file} & Reference to the input file stream. \\
+\hline
+{\em rows} & Number of rows in the matrix. \\
+\hline
+{\em cols} & Number of columns in the matrix. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em std\+::runtime\+\_\+error} & If the data is incomplete, mismatched with dimensions, or contains invalid entries. \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classInput_aecd3a50adc9f4527d7c1e5362b43b44a}\label{classInput_aecd3a50adc9f4527d7c1e5362b43b44a}} 
+\index{Input@{Input}!SetMethod@{SetMethod}}
+\index{SetMethod@{SetMethod}!Input@{Input}}
+\doxysubsubsection{\texorpdfstring{SetMethod()}{SetMethod()}}
+{\footnotesize\ttfamily void Input\+::\+Set\+Method (\begin{DoxyParamCaption}\item[{std\+::string \&}]{method }\end{DoxyParamCaption})}
+
+
+
+Set the numerical method to be used. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em method} & A string representing the method. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em std\+::runtime\+\_\+error} & If the method is not one of the valid options. \\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{input_8hpp}{input.\+hpp}}\item 
+src/\mbox{\hyperlink{input_8cpp}{input.\+cpp}}\end{DoxyCompactItemize}

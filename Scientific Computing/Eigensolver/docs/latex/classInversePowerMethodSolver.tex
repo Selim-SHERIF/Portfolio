@@ -1,0 +1,98 @@
+\hypertarget{classInversePowerMethodSolver}{}\doxysection{Inverse\+Power\+Method\+Solver$<$ Matrix\+Type, T $>$ Class Template Reference}
+\label{classInversePowerMethodSolver}\index{InversePowerMethodSolver$<$ MatrixType, T $>$@{InversePowerMethodSolver$<$ MatrixType, T $>$}}
+
+
+\mbox{\hyperlink{classSolver}{Solver}} for computing an eigenvalue close to a given shift using the Inverse Power Method.  
+
+
+
+
+{\ttfamily \#include $<$solver.\+hpp$>$}
+
+
+
+Collaboration diagram for Inverse\+Power\+Method\+Solver$<$ Matrix\+Type, T $>$\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classInversePowerMethodSolver__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classInversePowerMethodSolver_a662d91da8d893ed89264b0a5f8d8a55e}{Inverse\+Power\+Method\+Solver}} (\mbox{\hyperlink{classInput}{Input}} \&\mbox{\hyperlink{classSolver_abf1e9a47b1e9e24510e2521aeaaef9fc}{m\+Input\+File}})
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+T \mbox{\hyperlink{classInversePowerMethodSolver_a823b06f7093aa7e248db6a0c9e5d2a91}{solve}} () const override
+\begin{DoxyCompactList}\small\item\em Solve the eigenvalue problem using the Inverse Power Method with Shift. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+\subsubsection*{template$<$typename Matrix\+Type, typename T$>$\newline
+class Inverse\+Power\+Method\+Solver$<$ Matrix\+Type, T $>$}
+
+\mbox{\hyperlink{classSolver}{Solver}} for computing an eigenvalue close to a given shift using the Inverse Power Method. 
+
+The Inverse Power Method isolates and computes an eigenvalue near a user-\/defined shift value. This solver is particularly useful for finding eigenvalues other than the dominant one. Convergence is determined by a tolerance threshold and a maximum number of iterations.
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em Matrix\+Type} & The type of the matrix (Eigen\+::\+Matrix\+Xd for real or Eigen\+::\+Matrix\+Xcd for complex). \\
+\hline
+{\em T} & The type of the eigenvalue (double for real or std\+::complex$<$double$>$ for complex).\\
+\hline
+\end{DoxyTemplParams}
+\begin{DoxyNote}{Note}
+If the shifted matrix is singular or nearly singular, the method may fail. 
+\end{DoxyNote}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classInversePowerMethodSolver_a662d91da8d893ed89264b0a5f8d8a55e}\label{classInversePowerMethodSolver_a662d91da8d893ed89264b0a5f8d8a55e}} 
+\index{InversePowerMethodSolver$<$ MatrixType, T $>$@{InversePowerMethodSolver$<$ MatrixType, T $>$}!InversePowerMethodSolver@{InversePowerMethodSolver}}
+\index{InversePowerMethodSolver@{InversePowerMethodSolver}!InversePowerMethodSolver$<$ MatrixType, T $>$@{InversePowerMethodSolver$<$ MatrixType, T $>$}}
+\doxysubsubsection{\texorpdfstring{InversePowerMethodSolver()}{InversePowerMethodSolver()}}
+{\footnotesize\ttfamily template$<$typename Matrix\+Type , typename T $>$ \\
+\mbox{\hyperlink{classInversePowerMethodSolver}{Inverse\+Power\+Method\+Solver}}$<$ Matrix\+Type, T $>$\+::\mbox{\hyperlink{classInversePowerMethodSolver}{Inverse\+Power\+Method\+Solver}} (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classInput}{Input}} \&}]{m\+Input\+File }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [explicit]}}
+
+
+
+Constructor. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classInversePowerMethodSolver_a823b06f7093aa7e248db6a0c9e5d2a91}\label{classInversePowerMethodSolver_a823b06f7093aa7e248db6a0c9e5d2a91}} 
+\index{InversePowerMethodSolver$<$ MatrixType, T $>$@{InversePowerMethodSolver$<$ MatrixType, T $>$}!solve@{solve}}
+\index{solve@{solve}!InversePowerMethodSolver$<$ MatrixType, T $>$@{InversePowerMethodSolver$<$ MatrixType, T $>$}}
+\doxysubsubsection{\texorpdfstring{solve()}{solve()}}
+{\footnotesize\ttfamily template$<$typename Matrix\+Type , typename T $>$ \\
+T \mbox{\hyperlink{classInversePowerMethodSolver}{Inverse\+Power\+Method\+Solver}}$<$ Matrix\+Type, T $>$\+::solve\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Solve the eigenvalue problem using the Inverse Power Method with Shift. 
+
+Compute any eigenvalue using the Inverse Power Method with a specified shift.
+
+This method applies a shift to the matrix and solves a linear system iteratively to find an eigenvalue near the specified shift.
+
+\begin{DoxyReturn}{Returns}
+An eigenvalue of type T (double or std\+::complex$<$double$>$). 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em std\+::runtime\+\_\+error} & If the shifted matrix is singular or the method fails to converge. \\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \mbox{\hyperlink{classSolver_a334e87f49f1986ecb46665bbf9eac49e}{Solver$<$ Matrix\+Type, T $>$}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{solver_8hpp}{solver.\+hpp}}\item 
+src/\mbox{\hyperlink{solver__imp_8hpp}{solver\+\_\+imp.\+hpp}}\end{DoxyCompactItemize}

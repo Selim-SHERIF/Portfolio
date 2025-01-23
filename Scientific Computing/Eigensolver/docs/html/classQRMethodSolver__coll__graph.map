@@ -1,0 +1,5 @@
+<map id="QRMethodSolver&lt; MatrixType, T &gt;" name="QRMethodSolver&lt; MatrixType, T &gt;">
+<area shape="rect" id="node1" title="Solver for computing all eigenvalues using the QR Algorithm." alt="" coords="5,536,255,628"/>
+<area shape="rect" id="node2" href="$classSolver.html" title="Base class for eigenvalue solvers." alt="" coords="39,307,221,487"/>
+<area shape="rect" id="node3" href="$classInput.html" title="Class to handle numerical input parameters and matrices from a file." alt="" coords="45,5,215,244"/>
+</map>

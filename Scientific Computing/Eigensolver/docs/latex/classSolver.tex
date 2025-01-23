@@ -1,0 +1,207 @@
+\hypertarget{classSolver}{}\doxysection{Solver$<$ Matrix\+Type, T $>$ Class Template Reference}
+\label{classSolver}\index{Solver$<$ MatrixType, T $>$@{Solver$<$ MatrixType, T $>$}}
+
+
+Base class for eigenvalue solvers.  
+
+
+
+
+{\ttfamily \#include $<$solver.\+hpp$>$}
+
+
+
+Collaboration diagram for Solver$<$ Matrix\+Type, T $>$\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=216pt]{classSolver__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classSolver_ada58d9abd337c84fd74df4dd69126a8a}{Solver}} (\mbox{\hyperlink{classInput}{Input}} \&\mbox{\hyperlink{classSolver_abf1e9a47b1e9e24510e2521aeaaef9fc}{m\+Input\+File}})
+\begin{DoxyCompactList}\small\item\em Constructor taking an \mbox{\hyperlink{classInput}{Input}} object reference. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{classSolver_abbebd4f8a681fc1ea6c45f3657512790}{$\sim$\+Solver}} ()=default
+\begin{DoxyCompactList}\small\item\em Virtual destructor. \end{DoxyCompactList}\item 
+virtual T \mbox{\hyperlink{classSolver_a334e87f49f1986ecb46665bbf9eac49e}{solve}} () const =0
+\begin{DoxyCompactList}\small\item\em Pure virtual method for solving the eigenvalue problem. \end{DoxyCompactList}\item 
+Matrix\+Type \mbox{\hyperlink{classSolver_a92be0663ac0952fa7e887884afcb15b4}{Get\+Matrix}} () const
+\begin{DoxyCompactList}\small\item\em Retrieve the matrix from the input file. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classSolver_a340bbed778695bf7e75a308cc7066132}{Get\+Status}} () const
+\begin{DoxyCompactList}\small\item\em Returns the success flag. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classSolver_a039145ac471163e17f7807e5360fcb37}{Get\+Error\+Message}} () const
+\begin{DoxyCompactList}\small\item\em Returns the error message. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{structVectorType}{Vector\+Type}}$<$ Matrix\+Type $>$\+::type \mbox{\hyperlink{classSolver_a8bac163e3d304e639331bbf23f02447b}{Create\+Vector}} () const
+\begin{DoxyCompactList}\small\item\em Create vector initialized to ones. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classInput}{Input}} \& \mbox{\hyperlink{classSolver_abf1e9a47b1e9e24510e2521aeaaef9fc}{m\+Input\+File}}
+\begin{DoxyCompactList}\small\item\em Reference to the \mbox{\hyperlink{classInput}{Input}} object. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classSolver_a8d4d9f01bdb1e0c603734875a3290047}{success}} = true
+\begin{DoxyCompactList}\small\item\em Status of computation success. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classSolver_ad6a1a39aed344c61d6592e80fc144874}{error\+Message}}
+\begin{DoxyCompactList}\small\item\em Stores error messages. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\subsubsection*{template$<$typename Matrix\+Type, typename T$>$\newline
+class Solver$<$ Matrix\+Type, T $>$}
+
+Base class for eigenvalue solvers. 
+
+Provides the interface and common functionality for eigenvalue solvers.
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em Matrix\+Type} & The type of the matrix (real or complex). \\
+\hline
+{\em T} & The type of the eigenvalue (real or complex). \\
+\hline
+\end{DoxyTemplParams}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classSolver_ada58d9abd337c84fd74df4dd69126a8a}\label{classSolver_ada58d9abd337c84fd74df4dd69126a8a}} 
+\index{Solver$<$ MatrixType, T $>$@{Solver$<$ MatrixType, T $>$}!Solver@{Solver}}
+\index{Solver@{Solver}!Solver$<$ MatrixType, T $>$@{Solver$<$ MatrixType, T $>$}}
+\doxysubsubsection{\texorpdfstring{Solver()}{Solver()}}
+{\footnotesize\ttfamily template$<$typename Matrix\+Type , typename T $>$ \\
+\mbox{\hyperlink{classSolver}{Solver}}$<$ Matrix\+Type, T $>$\+::\mbox{\hyperlink{classSolver}{Solver}} (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classInput}{Input}} \&}]{m\+Input\+File }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [explicit]}}
+
+
+
+Constructor taking an \mbox{\hyperlink{classInput}{Input}} object reference. 
+
+\mbox{\Hypertarget{classSolver_abbebd4f8a681fc1ea6c45f3657512790}\label{classSolver_abbebd4f8a681fc1ea6c45f3657512790}} 
+\index{Solver$<$ MatrixType, T $>$@{Solver$<$ MatrixType, T $>$}!````~Solver@{$\sim$Solver}}
+\index{````~Solver@{$\sim$Solver}!Solver$<$ MatrixType, T $>$@{Solver$<$ MatrixType, T $>$}}
+\doxysubsubsection{\texorpdfstring{$\sim$Solver()}{~Solver()}}
+{\footnotesize\ttfamily template$<$typename Matrix\+Type , typename T $>$ \\
+virtual \mbox{\hyperlink{classSolver}{Solver}}$<$ Matrix\+Type, T $>$\+::$\sim$\mbox{\hyperlink{classSolver}{Solver}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}, {\ttfamily [default]}}
+
+
+
+Virtual destructor. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classSolver_a8bac163e3d304e639331bbf23f02447b}\label{classSolver_a8bac163e3d304e639331bbf23f02447b}} 
+\index{Solver$<$ MatrixType, T $>$@{Solver$<$ MatrixType, T $>$}!CreateVector@{CreateVector}}
+\index{CreateVector@{CreateVector}!Solver$<$ MatrixType, T $>$@{Solver$<$ MatrixType, T $>$}}
+\doxysubsubsection{\texorpdfstring{CreateVector()}{CreateVector()}}
+{\footnotesize\ttfamily template$<$typename Matrix\+Type , typename T $>$ \\
+\mbox{\hyperlink{structVectorType}{Vector\+Type}}$<$ Matrix\+Type $>$\+::type \mbox{\hyperlink{classSolver}{Solver}}$<$ Matrix\+Type, T $>$\+::Create\+Vector}
+
+
+
+Create vector initialized to ones. 
+
+Create a vector of the appropriate type, initialized to ones.
+
+The vector type is determined using the {\ttfamily \mbox{\hyperlink{structVectorType}{Vector\+Type}}} trait based on the matrix type.
+
+\begin{DoxyReturn}{Returns}
+A vector of type {\ttfamily \mbox{\hyperlink{structVectorType}{Vector\+Type}}$<$Matrix\+Type$>$\+::type}, initialized with ones. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classSolver_a039145ac471163e17f7807e5360fcb37}\label{classSolver_a039145ac471163e17f7807e5360fcb37}} 
+\index{Solver$<$ MatrixType, T $>$@{Solver$<$ MatrixType, T $>$}!GetErrorMessage@{GetErrorMessage}}
+\index{GetErrorMessage@{GetErrorMessage}!Solver$<$ MatrixType, T $>$@{Solver$<$ MatrixType, T $>$}}
+\doxysubsubsection{\texorpdfstring{GetErrorMessage()}{GetErrorMessage()}}
+{\footnotesize\ttfamily template$<$typename Matrix\+Type , typename T $>$ \\
+std\+::string \mbox{\hyperlink{classSolver}{Solver}}$<$ Matrix\+Type, T $>$\+::Get\+Error\+Message (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Returns the error message. 
+
+
+
+References Solver$<$ Matrix\+Type, T $>$\+::error\+Message.
+
+\mbox{\Hypertarget{classSolver_a92be0663ac0952fa7e887884afcb15b4}\label{classSolver_a92be0663ac0952fa7e887884afcb15b4}} 
+\index{Solver$<$ MatrixType, T $>$@{Solver$<$ MatrixType, T $>$}!GetMatrix@{GetMatrix}}
+\index{GetMatrix@{GetMatrix}!Solver$<$ MatrixType, T $>$@{Solver$<$ MatrixType, T $>$}}
+\doxysubsubsection{\texorpdfstring{GetMatrix()}{GetMatrix()}}
+{\footnotesize\ttfamily template$<$typename Matrix\+Type , typename T $>$ \\
+Matrix\+Type \mbox{\hyperlink{classSolver}{Solver}}$<$ Matrix\+Type, T $>$\+::Get\+Matrix}
+
+
+
+Retrieve the matrix from the input file. 
+
+\mbox{\Hypertarget{classSolver_a340bbed778695bf7e75a308cc7066132}\label{classSolver_a340bbed778695bf7e75a308cc7066132}} 
+\index{Solver$<$ MatrixType, T $>$@{Solver$<$ MatrixType, T $>$}!GetStatus@{GetStatus}}
+\index{GetStatus@{GetStatus}!Solver$<$ MatrixType, T $>$@{Solver$<$ MatrixType, T $>$}}
+\doxysubsubsection{\texorpdfstring{GetStatus()}{GetStatus()}}
+{\footnotesize\ttfamily template$<$typename Matrix\+Type , typename T $>$ \\
+bool \mbox{\hyperlink{classSolver}{Solver}}$<$ Matrix\+Type, T $>$\+::Get\+Status (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Returns the success flag. 
+
+
+
+References Solver$<$ Matrix\+Type, T $>$\+::success.
+
+\mbox{\Hypertarget{classSolver_a334e87f49f1986ecb46665bbf9eac49e}\label{classSolver_a334e87f49f1986ecb46665bbf9eac49e}} 
+\index{Solver$<$ MatrixType, T $>$@{Solver$<$ MatrixType, T $>$}!solve@{solve}}
+\index{solve@{solve}!Solver$<$ MatrixType, T $>$@{Solver$<$ MatrixType, T $>$}}
+\doxysubsubsection{\texorpdfstring{solve()}{solve()}}
+{\footnotesize\ttfamily template$<$typename Matrix\+Type , typename T $>$ \\
+virtual T \mbox{\hyperlink{classSolver}{Solver}}$<$ Matrix\+Type, T $>$\+::solve (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Pure virtual method for solving the eigenvalue problem. 
+
+
+
+Implemented in \mbox{\hyperlink{classQRMethodSolver_a05d5dc4f8e5c4ac2e9eef1dc3b892ba7}{QRMethod\+Solver$<$ Matrix\+Type, T $>$}}, \mbox{\hyperlink{classInversePowerMethodSolver_a823b06f7093aa7e248db6a0c9e5d2a91}{Inverse\+Power\+Method\+Solver$<$ Matrix\+Type, T $>$}}, and \mbox{\hyperlink{classPowerMethodSolver_a9d1cf3337409e9494affc61e506a3b25}{Power\+Method\+Solver$<$ Matrix\+Type, T $>$}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classSolver_ad6a1a39aed344c61d6592e80fc144874}\label{classSolver_ad6a1a39aed344c61d6592e80fc144874}} 
+\index{Solver$<$ MatrixType, T $>$@{Solver$<$ MatrixType, T $>$}!errorMessage@{errorMessage}}
+\index{errorMessage@{errorMessage}!Solver$<$ MatrixType, T $>$@{Solver$<$ MatrixType, T $>$}}
+\doxysubsubsection{\texorpdfstring{errorMessage}{errorMessage}}
+{\footnotesize\ttfamily template$<$typename Matrix\+Type , typename T $>$ \\
+std\+::string \mbox{\hyperlink{classSolver}{Solver}}$<$ Matrix\+Type, T $>$\+::error\+Message\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Stores error messages. 
+
+\mbox{\Hypertarget{classSolver_abf1e9a47b1e9e24510e2521aeaaef9fc}\label{classSolver_abf1e9a47b1e9e24510e2521aeaaef9fc}} 
+\index{Solver$<$ MatrixType, T $>$@{Solver$<$ MatrixType, T $>$}!mInputFile@{mInputFile}}
+\index{mInputFile@{mInputFile}!Solver$<$ MatrixType, T $>$@{Solver$<$ MatrixType, T $>$}}
+\doxysubsubsection{\texorpdfstring{mInputFile}{mInputFile}}
+{\footnotesize\ttfamily template$<$typename Matrix\+Type , typename T $>$ \\
+\mbox{\hyperlink{classInput}{Input}}\& \mbox{\hyperlink{classSolver}{Solver}}$<$ Matrix\+Type, T $>$\+::m\+Input\+File\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Reference to the \mbox{\hyperlink{classInput}{Input}} object. 
+
+\mbox{\Hypertarget{classSolver_a8d4d9f01bdb1e0c603734875a3290047}\label{classSolver_a8d4d9f01bdb1e0c603734875a3290047}} 
+\index{Solver$<$ MatrixType, T $>$@{Solver$<$ MatrixType, T $>$}!success@{success}}
+\index{success@{success}!Solver$<$ MatrixType, T $>$@{Solver$<$ MatrixType, T $>$}}
+\doxysubsubsection{\texorpdfstring{success}{success}}
+{\footnotesize\ttfamily template$<$typename Matrix\+Type , typename T $>$ \\
+bool \mbox{\hyperlink{classSolver}{Solver}}$<$ Matrix\+Type, T $>$\+::success = true\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Status of computation success. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{solver_8hpp}{solver.\+hpp}}\item 
+src/\mbox{\hyperlink{solver__imp_8hpp}{solver\+\_\+imp.\+hpp}}\end{DoxyCompactItemize}

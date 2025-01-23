@@ -1,0 +1,219 @@
+\hypertarget{classOutput}{}\doxysection{Output Class Reference}
+\label{classOutput}\index{Output@{Output}}
+
+
+Handles formatted output of eigenvalue solver results.  
+
+
+
+
+{\ttfamily \#include $<$output.\+hpp$>$}
+
+
+
+Collaboration diagram for Output\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=196pt]{classOutput__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classOutput_a79110a15f2569011d96a034620fc9b30}{Output}} (std\+::string file\+Name=\char`\"{}output.\+txt\char`\"{})
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classOutput_ae08b88d5d375c990bf1763d7e80635f4}{Print\+Header}} (const std\+::string \&title)
+\begin{DoxyCompactList}\small\item\em Displays a styled header. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{classOutput_abd29d36a0abc9e50f9a0304830162769}{Write\+Eigenvalue}} (const T \&eigenvalue, const std\+::string \&method)
+\begin{DoxyCompactList}\small\item\em Writes eigenvalues. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classOutput_a24825673c5120b7635c8a71f0371dc38}{Write\+Summary}} (const \mbox{\hyperlink{classInput}{Input}} \&input\+File)
+\begin{DoxyCompactList}\small\item\em Writes a summary of the input parameters. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classOutput_a5ed216c0690e884664d4fab89f57f463}{Display\+Error}} (const std\+::string \&message)
+\begin{DoxyCompactList}\small\item\em Displays error messages. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classOutput_a2134e459b32ba277b7aa17eab154932d}{Write\+To\+File}} (const std\+::string \&message)
+\begin{DoxyCompactList}\small\item\em Appends messages to the output file. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classOutput_aac38f69274af8747747c985a4fbf2480}{Save\+To\+File}} () const
+\begin{DoxyCompactList}\small\item\em Saves the output to the specified file. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classOutput_aca9bef33cbdff7355a2cbf4230d738d2}{Clear}} ()
+\begin{DoxyCompactList}\small\item\em Clears the output buffer. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classOutput_a376151b6f25a088efcab228310fd7482}{Open\+File}} () const
+\begin{DoxyCompactList}\small\item\em Opens the output file with the system\textquotesingle{}s default application. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Handles formatted output of eigenvalue solver results. 
+
+The {\ttfamily \mbox{\hyperlink{classOutput}{Output}}} class provides functionality to display and save results of eigenvalue solvers. It includes methods for\+:
+\begin{DoxyItemize}
+\item Displaying headers and results in a styled format on the console.
+\item Writing results and errors to a file.
+\item Managing formatted output for real and complex eigenvalues.
+\end{DoxyItemize}
+
+\begin{DoxyNote}{Note}
+ANSI escape codes are used for terminal styling, which may not be supported in all environments. 
+\end{DoxyNote}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classOutput_a79110a15f2569011d96a034620fc9b30}\label{classOutput_a79110a15f2569011d96a034620fc9b30}} 
+\index{Output@{Output}!Output@{Output}}
+\index{Output@{Output}!Output@{Output}}
+\doxysubsubsection{\texorpdfstring{Output()}{Output()}}
+{\footnotesize\ttfamily Output\+::\+Output (\begin{DoxyParamCaption}\item[{std\+::string}]{file\+Name = {\ttfamily \char`\"{}output.txt\char`\"{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [explicit]}}
+
+
+
+Constructor. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classOutput_aca9bef33cbdff7355a2cbf4230d738d2}\label{classOutput_aca9bef33cbdff7355a2cbf4230d738d2}} 
+\index{Output@{Output}!Clear@{Clear}}
+\index{Clear@{Clear}!Output@{Output}}
+\doxysubsubsection{\texorpdfstring{Clear()}{Clear()}}
+{\footnotesize\ttfamily void Output\+::\+Clear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Clears the output buffer. 
+
+\mbox{\Hypertarget{classOutput_a5ed216c0690e884664d4fab89f57f463}\label{classOutput_a5ed216c0690e884664d4fab89f57f463}} 
+\index{Output@{Output}!DisplayError@{DisplayError}}
+\index{DisplayError@{DisplayError}!Output@{Output}}
+\doxysubsubsection{\texorpdfstring{DisplayError()}{DisplayError()}}
+{\footnotesize\ttfamily void Output\+::\+Display\+Error (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{message }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Displays error messages. 
+
+Displays an error message in a styled format on the console and logs it to the output file.
+
+
+\begin{DoxyParams}{Parameters}
+{\em message} & The error message to display in the terminal and log in the output file. \\
+\hline
+\end{DoxyParams}
+
+
+References BOLD, center\+Text(), RED, and RESET.
+
+\mbox{\Hypertarget{classOutput_a376151b6f25a088efcab228310fd7482}\label{classOutput_a376151b6f25a088efcab228310fd7482}} 
+\index{Output@{Output}!OpenFile@{OpenFile}}
+\index{OpenFile@{OpenFile}!Output@{Output}}
+\doxysubsubsection{\texorpdfstring{OpenFile()}{OpenFile()}}
+{\footnotesize\ttfamily void Output\+::\+Open\+File (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Opens the output file with the system\textquotesingle{}s default application. 
+
+Opens the output file. \mbox{\Hypertarget{classOutput_ae08b88d5d375c990bf1763d7e80635f4}\label{classOutput_ae08b88d5d375c990bf1763d7e80635f4}} 
+\index{Output@{Output}!PrintHeader@{PrintHeader}}
+\index{PrintHeader@{PrintHeader}!Output@{Output}}
+\doxysubsubsection{\texorpdfstring{PrintHeader()}{PrintHeader()}}
+{\footnotesize\ttfamily void Output\+::\+Print\+Header (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{title }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Displays a styled header. 
+
+Displays a styled header with a title.
+
+
+\begin{DoxyParams}{Parameters}
+{\em title} & The title to display. \\
+\hline
+\end{DoxyParams}
+
+
+References BOLD, center\+Text(), MAGENTA, and RESET.
+
+\mbox{\Hypertarget{classOutput_aac38f69274af8747747c985a4fbf2480}\label{classOutput_aac38f69274af8747747c985a4fbf2480}} 
+\index{Output@{Output}!SaveToFile@{SaveToFile}}
+\index{SaveToFile@{SaveToFile}!Output@{Output}}
+\doxysubsubsection{\texorpdfstring{SaveToFile()}{SaveToFile()}}
+{\footnotesize\ttfamily void Output\+::\+Save\+To\+File (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Saves the output to the specified file. 
+
+Writes eigenvalue(s) to both the terminal and the output file.
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & The type of eigenvalue (scalar, complex, or vector).\\
+\hline
+\end{DoxyTemplParams}
+/$\ast$$\ast$
+
+Saves the collected output to the specified file. \mbox{\Hypertarget{classOutput_abd29d36a0abc9e50f9a0304830162769}\label{classOutput_abd29d36a0abc9e50f9a0304830162769}} 
+\index{Output@{Output}!WriteEigenvalue@{WriteEigenvalue}}
+\index{WriteEigenvalue@{WriteEigenvalue}!Output@{Output}}
+\doxysubsubsection{\texorpdfstring{WriteEigenvalue()}{WriteEigenvalue()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+void Output\+::\+Write\+Eigenvalue (\begin{DoxyParamCaption}\item[{const T \&}]{eigenvalue,  }\item[{const std\+::string \&}]{method }\end{DoxyParamCaption})}
+
+
+
+Writes eigenvalues. 
+
+Writes eigenvalue(s) to both the terminal and the output file.
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & The type of eigenvalue (scalar, complex, or vector). \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em eigenvalue} & The computed eigenvalue(s). \\
+\hline
+{\em method} & The name of the method used to compute the eigenvalue(s). \\
+\hline
+\end{DoxyParams}
+
+
+References center\+Text(), complex\+To\+String(), CYAN, and RESET.
+
+\mbox{\Hypertarget{classOutput_a24825673c5120b7635c8a71f0371dc38}\label{classOutput_a24825673c5120b7635c8a71f0371dc38}} 
+\index{Output@{Output}!WriteSummary@{WriteSummary}}
+\index{WriteSummary@{WriteSummary}!Output@{Output}}
+\doxysubsubsection{\texorpdfstring{WriteSummary()}{WriteSummary()}}
+{\footnotesize\ttfamily void Output\+::\+Write\+Summary (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classInput}{Input}} \&}]{input\+File }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Writes a summary of the input parameters. 
+
+Writes a summary of input parameters to the output. 
+
+References center\+Text(), Input\+::\+Get\+Complex\+Matrix(), Input\+::\+Get\+Dimension(), Input\+::\+Get\+Is\+Complex(), Input\+::\+Get\+Max\+Iter(), Input\+::\+Get\+Method(), Input\+::\+Get\+Real\+Matrix(), Input\+::\+Get\+Shift(), Input\+::\+Get\+Tolerance(), MAGENTA, and RESET.
+
+\mbox{\Hypertarget{classOutput_a2134e459b32ba277b7aa17eab154932d}\label{classOutput_a2134e459b32ba277b7aa17eab154932d}} 
+\index{Output@{Output}!WriteToFile@{WriteToFile}}
+\index{WriteToFile@{WriteToFile}!Output@{Output}}
+\doxysubsubsection{\texorpdfstring{WriteToFile()}{WriteToFile()}}
+{\footnotesize\ttfamily void Output\+::\+Write\+To\+File (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{message }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Appends messages to the output file. 
+
+Logs a message to the output file, including eigenvalues or error details.
+
+
+\begin{DoxyParams}{Parameters}
+{\em message} & The message to log in the output file. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{output_8hpp}{output.\+hpp}}\item 
+src/\mbox{\hyperlink{output__imp_8hpp}{output\+\_\+imp.\+hpp}}\end{DoxyCompactItemize}

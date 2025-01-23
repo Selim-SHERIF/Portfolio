@@ -1,0 +1,235 @@
+\begin{theindex}
+
+  \item {$\sim$Solver}
+    \subitem {Solver$<$ MatrixType, T $>$}, \hyperpage{29}
+
+  \indexspace
+
+  \item {BOLD}
+    \subitem {output.hpp}, \hyperpage{42}
+
+  \indexspace
+
+  \item {centerText}
+    \subitem {output\_imp.hpp}, \hyperpage{44}
+  \item {CleanUpTempFile}
+    \subitem {test.cpp}, \hyperpage{48}
+  \item {Clear}
+    \subitem {Output}, \hyperpage{20}
+  \item {complexToString}
+    \subitem {output\_imp.hpp}, \hyperpage{44}
+  \item {CreateVector}
+    \subitem {Solver$<$ MatrixType, T $>$}, \hyperpage{29}
+  \item {CYAN}
+    \subitem {output.hpp}, \hyperpage{42}
+
+  \indexspace
+
+  \item {DisplayError}
+    \subitem {Output}, \hyperpage{20}
+
+  \indexspace
+
+  \item {errorMessage}
+    \subitem {Solver$<$ MatrixType, T $>$}, \hyperpage{31}
+
+  \indexspace
+
+  \item {GetComplexMatrix}
+    \subitem {Input}, \hyperpage{10}
+  \item {GetDimension}
+    \subitem {Input}, \hyperpage{11}
+  \item {GetErrorMessage}
+    \subitem {Solver$<$ MatrixType, T $>$}, \hyperpage{30}
+  \item {GetIsComplex}
+    \subitem {Input}, \hyperpage{11}
+  \item {GetMatrix}
+    \subitem {Solver$<$ MatrixType, T $>$}, \hyperpage{30}
+  \item {GetMaxIter}
+    \subitem {Input}, \hyperpage{11}
+  \item {GetMethod}
+    \subitem {Input}, \hyperpage{11}
+  \item {GetRealMatrix}
+    \subitem {Input}, \hyperpage{12}
+  \item {GetShift}
+    \subitem {Input}, \hyperpage{12}
+  \item {GetStatus}
+    \subitem {Solver$<$ MatrixType, T $>$}, \hyperpage{30}
+  \item {GetTolerance}
+    \subitem {Input}, \hyperpage{12}
+  \item {GREEN}
+    \subitem {output.hpp}, \hyperpage{42}
+
+  \indexspace
+
+  \item {Input}, \hyperpage{9}
+    \subitem {GetComplexMatrix}, \hyperpage{10}
+    \subitem {GetDimension}, \hyperpage{11}
+    \subitem {GetIsComplex}, \hyperpage{11}
+    \subitem {GetMaxIter}, \hyperpage{11}
+    \subitem {GetMethod}, \hyperpage{11}
+    \subitem {GetRealMatrix}, \hyperpage{12}
+    \subitem {GetShift}, \hyperpage{12}
+    \subitem {GetTolerance}, \hyperpage{12}
+    \subitem {Input}, \hyperpage{10}
+    \subitem {ReadFile}, \hyperpage{12}
+    \subitem {ReadMatrixData}, \hyperpage{13}
+    \subitem {SetMethod}, \hyperpage{13}
+  \item {input}
+    \subitem {InputTest}, \hyperpage{15}
+    \subitem {SolverTest}, \hyperpage{33}
+  \item {InputTest}, \hyperpage{14}
+    \subitem {input}, \hyperpage{15}
+    \subitem {ReadTestFile}, \hyperpage{15}
+  \item {InversePowerMethodSolver}
+    \subitem {InversePowerMethodSolver$<$ MatrixType, T $>$}, 
+		\hyperpage{17}
+  \item {InversePowerMethodSolver$<$ MatrixType, T $>$}, \hyperpage{16}
+    \subitem {InversePowerMethodSolver}, \hyperpage{17}
+    \subitem {solve}, \hyperpage{17}
+
+  \indexspace
+
+  \item {MAGENTA}
+    \subitem {output.hpp}, \hyperpage{42}
+  \item {main}
+    \subitem {main.cpp}, \hyperpage{39}
+  \item {main.cpp}
+    \subitem {main}, \hyperpage{39}
+    \subitem {SolveAndWrite}, \hyperpage{40}
+  \item {mInputFile}
+    \subitem {Solver$<$ MatrixType, T $>$}, \hyperpage{31}
+
+  \indexspace
+
+  \item {OpenFile}
+    \subitem {Output}, \hyperpage{20}
+  \item {Output}, \hyperpage{18}
+    \subitem {Clear}, \hyperpage{20}
+    \subitem {DisplayError}, \hyperpage{20}
+    \subitem {OpenFile}, \hyperpage{20}
+    \subitem {Output}, \hyperpage{19}
+    \subitem {PrintHeader}, \hyperpage{20}
+    \subitem {SaveToFile}, \hyperpage{21}
+    \subitem {WriteEigenvalue}, \hyperpage{21}
+    \subitem {WriteSummary}, \hyperpage{21}
+    \subitem {WriteToFile}, \hyperpage{22}
+  \item {output.hpp}
+    \subitem {BOLD}, \hyperpage{42}
+    \subitem {CYAN}, \hyperpage{42}
+    \subitem {GREEN}, \hyperpage{42}
+    \subitem {MAGENTA}, \hyperpage{42}
+    \subitem {RED}, \hyperpage{42}
+    \subitem {RESET}, \hyperpage{42}
+  \item {output\_imp.hpp}
+    \subitem {centerText}, \hyperpage{44}
+    \subitem {complexToString}, \hyperpage{44}
+
+  \indexspace
+
+  \item {PowerMethodSolver}
+    \subitem {PowerMethodSolver$<$ MatrixType, T $>$}, \hyperpage{24}
+  \item {PowerMethodSolver$<$ MatrixType, T $>$}, \hyperpage{22}
+    \subitem {PowerMethodSolver}, \hyperpage{24}
+    \subitem {solve}, \hyperpage{24}
+  \item {PrintHeader}
+    \subitem {Output}, \hyperpage{20}
+
+  \indexspace
+
+  \item {QRMethodSolver}
+    \subitem {QRMethodSolver$<$ MatrixType, T $>$}, \hyperpage{26}
+  \item {QRMethodSolver$<$ MatrixType, T $>$}, \hyperpage{25}
+    \subitem {QRMethodSolver}, \hyperpage{26}
+    \subitem {solve}, \hyperpage{26}
+
+  \indexspace
+
+  \item {ReadFile}
+    \subitem {Input}, \hyperpage{12}
+  \item {ReadMatrixData}
+    \subitem {Input}, \hyperpage{13}
+  \item {ReadTestFile}
+    \subitem {InputTest}, \hyperpage{15}
+    \subitem {SolverTest}, \hyperpage{33}
+  \item {RED}
+    \subitem {output.hpp}, \hyperpage{42}
+  \item {RESET}
+    \subitem {output.hpp}, \hyperpage{42}
+  \item {RunSolverAndThrow}
+    \subitem {test.cpp}, \hyperpage{49}
+
+  \indexspace
+
+  \item {SaveToFile}
+    \subitem {Output}, \hyperpage{21}
+  \item {SetMethod}
+    \subitem {Input}, \hyperpage{13}
+  \item {solve}
+    \subitem {InversePowerMethodSolver$<$ MatrixType, T $>$}, 
+		\hyperpage{17}
+    \subitem {PowerMethodSolver$<$ MatrixType, T $>$}, \hyperpage{24}
+    \subitem {QRMethodSolver$<$ MatrixType, T $>$}, \hyperpage{26}
+    \subitem {Solver$<$ MatrixType, T $>$}, \hyperpage{30}
+  \item {SolveAndWrite}
+    \subitem {main.cpp}, \hyperpage{40}
+  \item {Solver}
+    \subitem {Solver$<$ MatrixType, T $>$}, \hyperpage{29}
+  \item {Solver$<$ MatrixType, T $>$}, \hyperpage{27}
+    \subitem {$\sim$Solver}, \hyperpage{29}
+    \subitem {CreateVector}, \hyperpage{29}
+    \subitem {errorMessage}, \hyperpage{31}
+    \subitem {GetErrorMessage}, \hyperpage{30}
+    \subitem {GetMatrix}, \hyperpage{30}
+    \subitem {GetStatus}, \hyperpage{30}
+    \subitem {mInputFile}, \hyperpage{31}
+    \subitem {solve}, \hyperpage{30}
+    \subitem {Solver}, \hyperpage{29}
+    \subitem {success}, \hyperpage{31}
+  \item {SolverTest}, \hyperpage{32}
+    \subitem {input}, \hyperpage{33}
+    \subitem {ReadTestFile}, \hyperpage{33}
+  \item {src/input.cpp}, \hyperpage{37}
+  \item {src/input.hpp}, \hyperpage{38}
+  \item {src/main.cpp}, \hyperpage{39}
+  \item {src/output.hpp}, \hyperpage{40}
+  \item {src/output\_imp.hpp}, \hyperpage{43}
+  \item {src/solver.hpp}, \hyperpage{45}
+  \item {src/solver\_imp.hpp}, \hyperpage{46}
+  \item {success}
+    \subitem {Solver$<$ MatrixType, T $>$}, \hyperpage{31}
+
+  \indexspace
+
+  \item {test.cpp}
+    \subitem {CleanUpTempFile}, \hyperpage{48}
+    \subitem {RunSolverAndThrow}, \hyperpage{49}
+    \subitem {TEST\_F}, \hyperpage{49--53}
+    \subitem {WriteToTempFile}, \hyperpage{53}
+  \item {test/test.cpp}, \hyperpage{47}
+  \item {TEST\_F}
+    \subitem {test.cpp}, \hyperpage{49--53}
+  \item {type}
+    \subitem {VectorType$<$ Eigen::MatrixXcd $>$}, \hyperpage{34}
+    \subitem {VectorType$<$ Eigen::MatrixXd $>$}, \hyperpage{35}
+
+  \indexspace
+
+  \item {VectorType$<$ Eigen::MatrixXcd $>$}, \hyperpage{34}
+    \subitem {type}, \hyperpage{34}
+  \item {VectorType$<$ Eigen::MatrixXd $>$}, \hyperpage{35}
+    \subitem {type}, \hyperpage{35}
+  \item {VectorType$<$ MatrixType $>$}, \hyperpage{33}
+
+  \indexspace
+
+  \item {WriteEigenvalue}
+    \subitem {Output}, \hyperpage{21}
+  \item {WriteSummary}
+    \subitem {Output}, \hyperpage{21}
+  \item {WriteToFile}
+    \subitem {Output}, \hyperpage{22}
+  \item {WriteToTempFile}
+    \subitem {test.cpp}, \hyperpage{53}
+
+\end{theindex}

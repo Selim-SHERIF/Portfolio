@@ -1,0 +1,48 @@
+\hypertarget{solver_8hpp}{}\doxysection{src/solver.hpp File Reference}
+\label{solver_8hpp}\index{src/solver.hpp@{src/solver.hpp}}
+
+
+Declaration of eigenvalue solvers using Power Method, Inverse Power Method, and QR Algorithm.  
+
+
+{\ttfamily \#include \char`\"{}input.\+hpp\char`\"{}}\newline
+{\ttfamily \#include $<$Eigen/\+Dense$>$}\newline
+{\ttfamily \#include $<$type\+\_\+traits$>$}\newline
+{\ttfamily \#include \char`\"{}solver\+\_\+imp.\+hpp\char`\"{}}\newline
+Include dependency graph for solver.\+hpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{solver_8hpp__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{solver_8hpp__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structVectorType}{Vector\+Type$<$ Matrix\+Type $>$}}
+\begin{DoxyCompactList}\small\item\em Type trait to deduce the vector type based on the matrix type. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structVectorType_3_01Eigen_1_1MatrixXd_01_4}{Vector\+Type$<$ Eigen\+::\+Matrix\+Xd $>$}}
+\item 
+struct \mbox{\hyperlink{structVectorType_3_01Eigen_1_1MatrixXcd_01_4}{Vector\+Type$<$ Eigen\+::\+Matrix\+Xcd $>$}}
+\item 
+class \mbox{\hyperlink{classSolver}{Solver$<$ Matrix\+Type, T $>$}}
+\begin{DoxyCompactList}\small\item\em Base class for eigenvalue solvers. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classPowerMethodSolver}{Power\+Method\+Solver$<$ Matrix\+Type, T $>$}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classSolver}{Solver}} for computing the dominant eigenvalue using the Power Method. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classInversePowerMethodSolver}{Inverse\+Power\+Method\+Solver$<$ Matrix\+Type, T $>$}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classSolver}{Solver}} for computing an eigenvalue close to a given shift using the Inverse Power Method. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classQRMethodSolver}{QRMethod\+Solver$<$ Matrix\+Type, T $>$}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classSolver}{Solver}} for computing all eigenvalues using the QR Algorithm. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Declaration of eigenvalue solvers using Power Method, Inverse Power Method, and QR Algorithm. 
+
+Defines the abstract base class {\ttfamily \mbox{\hyperlink{classSolver}{Solver}}} and its derived classes for computing eigenvalues using various numerical techniques. Includes support for real and complex matrices. 

@@ -1,0 +1,82 @@
+\hypertarget{output__imp_8hpp}{}\doxysection{src/output\+\_\+imp.hpp File Reference}
+\label{output__imp_8hpp}\index{src/output\_imp.hpp@{src/output\_imp.hpp}}
+
+
+Implementation of the \mbox{\hyperlink{classOutput}{Output}} class methods for managing formatted output.  
+
+
+{\ttfamily \#include $<$iomanip$>$}\newline
+{\ttfamily \#include $<$thread$>$}\newline
+Include dependency graph for output\+\_\+imp.\+hpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=202pt]{output__imp_8hpp__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=190pt]{output__imp_8hpp__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{output__imp_8hpp_af9ec192d26319094f432906ced22c7a5}{center\+Text}} (const std\+::string \&text, int total\+Width)
+\begin{DoxyCompactList}\small\item\em Utility function to center-\/align text. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\std\+::string \mbox{\hyperlink{output__imp_8hpp_afad287d434c3efb2de8303dbca54b964}{complex\+To\+String}} (const std\+::complex$<$ T $>$ \&c)
+\begin{DoxyCompactList}\small\item\em Utility function to convert a complex number to a formatted string. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implementation of the \mbox{\hyperlink{classOutput}{Output}} class methods for managing formatted output. 
+
+This file provides the implementation of the {\ttfamily \mbox{\hyperlink{classOutput}{Output}}} class declared in {\ttfamily \mbox{\hyperlink{output_8hpp}{output.\+hpp}}}. It includes methods for styled console output, saving results to a file, and formatting real and complex eigenvalues. 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{output__imp_8hpp_af9ec192d26319094f432906ced22c7a5}\label{output__imp_8hpp_af9ec192d26319094f432906ced22c7a5}} 
+\index{output\_imp.hpp@{output\_imp.hpp}!centerText@{centerText}}
+\index{centerText@{centerText}!output\_imp.hpp@{output\_imp.hpp}}
+\doxysubsubsection{\texorpdfstring{centerText()}{centerText()}}
+{\footnotesize\ttfamily std\+::string center\+Text (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{text,  }\item[{int}]{total\+Width }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Utility function to center-\/align text. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em text} & The text to center. \\
+\hline
+{\em total\+Width} & Total width of the field. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A string with the text centered. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{output__imp_8hpp_afad287d434c3efb2de8303dbca54b964}\label{output__imp_8hpp_afad287d434c3efb2de8303dbca54b964}} 
+\index{output\_imp.hpp@{output\_imp.hpp}!complexToString@{complexToString}}
+\index{complexToString@{complexToString}!output\_imp.hpp@{output\_imp.hpp}}
+\doxysubsubsection{\texorpdfstring{complexToString()}{complexToString()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+std\+::string complex\+To\+String (\begin{DoxyParamCaption}\item[{const std\+::complex$<$ T $>$ \&}]{c }\end{DoxyParamCaption})}
+
+
+
+Utility function to convert a complex number to a formatted string. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & The numeric type of the complex number. \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em c} & The complex number to convert. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A string representation of the complex number. 
+\end{DoxyReturn}

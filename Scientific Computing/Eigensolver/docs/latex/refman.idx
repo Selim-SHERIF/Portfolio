@@ -1,0 +1,159 @@
+\indexentry{Input@{Input}|hyperpage}{9}
+\indexentry{Input@{Input}!Input@{Input}|hyperpage}{10}
+\indexentry{Input@{Input}!Input@{Input}|hyperpage}{10}
+\indexentry{Input@{Input}!GetComplexMatrix@{GetComplexMatrix}|hyperpage}{10}
+\indexentry{GetComplexMatrix@{GetComplexMatrix}!Input@{Input}|hyperpage}{10}
+\indexentry{Input@{Input}!GetDimension@{GetDimension}|hyperpage}{11}
+\indexentry{GetDimension@{GetDimension}!Input@{Input}|hyperpage}{11}
+\indexentry{Input@{Input}!GetIsComplex@{GetIsComplex}|hyperpage}{11}
+\indexentry{GetIsComplex@{GetIsComplex}!Input@{Input}|hyperpage}{11}
+\indexentry{Input@{Input}!GetMaxIter@{GetMaxIter}|hyperpage}{11}
+\indexentry{GetMaxIter@{GetMaxIter}!Input@{Input}|hyperpage}{11}
+\indexentry{Input@{Input}!GetMethod@{GetMethod}|hyperpage}{11}
+\indexentry{GetMethod@{GetMethod}!Input@{Input}|hyperpage}{11}
+\indexentry{Input@{Input}!GetRealMatrix@{GetRealMatrix}|hyperpage}{12}
+\indexentry{GetRealMatrix@{GetRealMatrix}!Input@{Input}|hyperpage}{12}
+\indexentry{Input@{Input}!GetShift@{GetShift}|hyperpage}{12}
+\indexentry{GetShift@{GetShift}!Input@{Input}|hyperpage}{12}
+\indexentry{Input@{Input}!GetTolerance@{GetTolerance}|hyperpage}{12}
+\indexentry{GetTolerance@{GetTolerance}!Input@{Input}|hyperpage}{12}
+\indexentry{Input@{Input}!ReadFile@{ReadFile}|hyperpage}{12}
+\indexentry{ReadFile@{ReadFile}!Input@{Input}|hyperpage}{12}
+\indexentry{Input@{Input}!ReadMatrixData@{ReadMatrixData}|hyperpage}{13}
+\indexentry{ReadMatrixData@{ReadMatrixData}!Input@{Input}|hyperpage}{13}
+\indexentry{Input@{Input}!SetMethod@{SetMethod}|hyperpage}{13}
+\indexentry{SetMethod@{SetMethod}!Input@{Input}|hyperpage}{13}
+\indexentry{InputTest@{InputTest}|hyperpage}{14}
+\indexentry{InputTest@{InputTest}!ReadTestFile@{ReadTestFile}|hyperpage}{15}
+\indexentry{ReadTestFile@{ReadTestFile}!InputTest@{InputTest}|hyperpage}{15}
+\indexentry{InputTest@{InputTest}!input@{input}|hyperpage}{15}
+\indexentry{input@{input}!InputTest@{InputTest}|hyperpage}{15}
+\indexentry{InversePowerMethodSolver$<$ MatrixType, T $>$@{InversePowerMethodSolver$<$ MatrixType, T $>$}|hyperpage}{16}
+\indexentry{InversePowerMethodSolver$<$ MatrixType, T $>$@{InversePowerMethodSolver$<$ MatrixType, T $>$}!InversePowerMethodSolver@{InversePowerMethodSolver}|hyperpage}{17}
+\indexentry{InversePowerMethodSolver@{InversePowerMethodSolver}!InversePowerMethodSolver$<$ MatrixType, T $>$@{InversePowerMethodSolver$<$ MatrixType, T $>$}|hyperpage}{17}
+\indexentry{InversePowerMethodSolver$<$ MatrixType, T $>$@{InversePowerMethodSolver$<$ MatrixType, T $>$}!solve@{solve}|hyperpage}{17}
+\indexentry{solve@{solve}!InversePowerMethodSolver$<$ MatrixType, T $>$@{InversePowerMethodSolver$<$ MatrixType, T $>$}|hyperpage}{17}
+\indexentry{Output@{Output}|hyperpage}{18}
+\indexentry{Output@{Output}!Output@{Output}|hyperpage}{19}
+\indexentry{Output@{Output}!Output@{Output}|hyperpage}{19}
+\indexentry{Output@{Output}!Clear@{Clear}|hyperpage}{20}
+\indexentry{Clear@{Clear}!Output@{Output}|hyperpage}{20}
+\indexentry{Output@{Output}!DisplayError@{DisplayError}|hyperpage}{20}
+\indexentry{DisplayError@{DisplayError}!Output@{Output}|hyperpage}{20}
+\indexentry{Output@{Output}!OpenFile@{OpenFile}|hyperpage}{20}
+\indexentry{OpenFile@{OpenFile}!Output@{Output}|hyperpage}{20}
+\indexentry{Output@{Output}!PrintHeader@{PrintHeader}|hyperpage}{20}
+\indexentry{PrintHeader@{PrintHeader}!Output@{Output}|hyperpage}{20}
+\indexentry{Output@{Output}!SaveToFile@{SaveToFile}|hyperpage}{21}
+\indexentry{SaveToFile@{SaveToFile}!Output@{Output}|hyperpage}{21}
+\indexentry{Output@{Output}!WriteEigenvalue@{WriteEigenvalue}|hyperpage}{21}
+\indexentry{WriteEigenvalue@{WriteEigenvalue}!Output@{Output}|hyperpage}{21}
+\indexentry{Output@{Output}!WriteSummary@{WriteSummary}|hyperpage}{21}
+\indexentry{WriteSummary@{WriteSummary}!Output@{Output}|hyperpage}{21}
+\indexentry{Output@{Output}!WriteToFile@{WriteToFile}|hyperpage}{22}
+\indexentry{WriteToFile@{WriteToFile}!Output@{Output}|hyperpage}{22}
+\indexentry{PowerMethodSolver$<$ MatrixType, T $>$@{PowerMethodSolver$<$ MatrixType, T $>$}|hyperpage}{22}
+\indexentry{PowerMethodSolver$<$ MatrixType, T $>$@{PowerMethodSolver$<$ MatrixType, T $>$}!PowerMethodSolver@{PowerMethodSolver}|hyperpage}{24}
+\indexentry{PowerMethodSolver@{PowerMethodSolver}!PowerMethodSolver$<$ MatrixType, T $>$@{PowerMethodSolver$<$ MatrixType, T $>$}|hyperpage}{24}
+\indexentry{PowerMethodSolver$<$ MatrixType, T $>$@{PowerMethodSolver$<$ MatrixType, T $>$}!solve@{solve}|hyperpage}{24}
+\indexentry{solve@{solve}!PowerMethodSolver$<$ MatrixType, T $>$@{PowerMethodSolver$<$ MatrixType, T $>$}|hyperpage}{24}
+\indexentry{QRMethodSolver$<$ MatrixType, T $>$@{QRMethodSolver$<$ MatrixType, T $>$}|hyperpage}{25}
+\indexentry{QRMethodSolver$<$ MatrixType, T $>$@{QRMethodSolver$<$ MatrixType, T $>$}!QRMethodSolver@{QRMethodSolver}|hyperpage}{26}
+\indexentry{QRMethodSolver@{QRMethodSolver}!QRMethodSolver$<$ MatrixType, T $>$@{QRMethodSolver$<$ MatrixType, T $>$}|hyperpage}{26}
+\indexentry{QRMethodSolver$<$ MatrixType, T $>$@{QRMethodSolver$<$ MatrixType, T $>$}!solve@{solve}|hyperpage}{26}
+\indexentry{solve@{solve}!QRMethodSolver$<$ MatrixType, T $>$@{QRMethodSolver$<$ MatrixType, T $>$}|hyperpage}{26}
+\indexentry{Solver$<$ MatrixType, T $>$@{Solver$<$ MatrixType, T $>$}|hyperpage}{27}
+\indexentry{Solver$<$ MatrixType, T $>$@{Solver$<$ MatrixType, T $>$}!Solver@{Solver}|hyperpage}{29}
+\indexentry{Solver@{Solver}!Solver$<$ MatrixType, T $>$@{Solver$<$ MatrixType, T $>$}|hyperpage}{29}
+\indexentry{Solver$<$ MatrixType, T $>$@{Solver$<$ MatrixType, T $>$}!````~Solver@{$\sim$Solver}|hyperpage}{29}
+\indexentry{````~Solver@{$\sim$Solver}!Solver$<$ MatrixType, T $>$@{Solver$<$ MatrixType, T $>$}|hyperpage}{29}
+\indexentry{Solver$<$ MatrixType, T $>$@{Solver$<$ MatrixType, T $>$}!CreateVector@{CreateVector}|hyperpage}{29}
+\indexentry{CreateVector@{CreateVector}!Solver$<$ MatrixType, T $>$@{Solver$<$ MatrixType, T $>$}|hyperpage}{29}
+\indexentry{Solver$<$ MatrixType, T $>$@{Solver$<$ MatrixType, T $>$}!GetErrorMessage@{GetErrorMessage}|hyperpage}{30}
+\indexentry{GetErrorMessage@{GetErrorMessage}!Solver$<$ MatrixType, T $>$@{Solver$<$ MatrixType, T $>$}|hyperpage}{30}
+\indexentry{Solver$<$ MatrixType, T $>$@{Solver$<$ MatrixType, T $>$}!GetMatrix@{GetMatrix}|hyperpage}{30}
+\indexentry{GetMatrix@{GetMatrix}!Solver$<$ MatrixType, T $>$@{Solver$<$ MatrixType, T $>$}|hyperpage}{30}
+\indexentry{Solver$<$ MatrixType, T $>$@{Solver$<$ MatrixType, T $>$}!GetStatus@{GetStatus}|hyperpage}{30}
+\indexentry{GetStatus@{GetStatus}!Solver$<$ MatrixType, T $>$@{Solver$<$ MatrixType, T $>$}|hyperpage}{30}
+\indexentry{Solver$<$ MatrixType, T $>$@{Solver$<$ MatrixType, T $>$}!solve@{solve}|hyperpage}{30}
+\indexentry{solve@{solve}!Solver$<$ MatrixType, T $>$@{Solver$<$ MatrixType, T $>$}|hyperpage}{30}
+\indexentry{Solver$<$ MatrixType, T $>$@{Solver$<$ MatrixType, T $>$}!errorMessage@{errorMessage}|hyperpage}{31}
+\indexentry{errorMessage@{errorMessage}!Solver$<$ MatrixType, T $>$@{Solver$<$ MatrixType, T $>$}|hyperpage}{31}
+\indexentry{Solver$<$ MatrixType, T $>$@{Solver$<$ MatrixType, T $>$}!mInputFile@{mInputFile}|hyperpage}{31}
+\indexentry{mInputFile@{mInputFile}!Solver$<$ MatrixType, T $>$@{Solver$<$ MatrixType, T $>$}|hyperpage}{31}
+\indexentry{Solver$<$ MatrixType, T $>$@{Solver$<$ MatrixType, T $>$}!success@{success}|hyperpage}{31}
+\indexentry{success@{success}!Solver$<$ MatrixType, T $>$@{Solver$<$ MatrixType, T $>$}|hyperpage}{31}
+\indexentry{SolverTest@{SolverTest}|hyperpage}{32}
+\indexentry{SolverTest@{SolverTest}!ReadTestFile@{ReadTestFile}|hyperpage}{33}
+\indexentry{ReadTestFile@{ReadTestFile}!SolverTest@{SolverTest}|hyperpage}{33}
+\indexentry{SolverTest@{SolverTest}!input@{input}|hyperpage}{33}
+\indexentry{input@{input}!SolverTest@{SolverTest}|hyperpage}{33}
+\indexentry{VectorType$<$ MatrixType $>$@{VectorType$<$ MatrixType $>$}|hyperpage}{33}
+\indexentry{VectorType$<$ Eigen::MatrixXcd $>$@{VectorType$<$ Eigen::MatrixXcd $>$}|hyperpage}{34}
+\indexentry{VectorType$<$ Eigen::MatrixXcd $>$@{VectorType$<$ Eigen::MatrixXcd $>$}!type@{type}|hyperpage}{34}
+\indexentry{type@{type}!VectorType$<$ Eigen::MatrixXcd $>$@{VectorType$<$ Eigen::MatrixXcd $>$}|hyperpage}{34}
+\indexentry{VectorType$<$ Eigen::MatrixXd $>$@{VectorType$<$ Eigen::MatrixXd $>$}|hyperpage}{35}
+\indexentry{VectorType$<$ Eigen::MatrixXd $>$@{VectorType$<$ Eigen::MatrixXd $>$}!type@{type}|hyperpage}{35}
+\indexentry{type@{type}!VectorType$<$ Eigen::MatrixXd $>$@{VectorType$<$ Eigen::MatrixXd $>$}|hyperpage}{35}
+\indexentry{src/input.cpp@{src/input.cpp}|hyperpage}{37}
+\indexentry{src/input.hpp@{src/input.hpp}|hyperpage}{38}
+\indexentry{src/main.cpp@{src/main.cpp}|hyperpage}{39}
+\indexentry{main.cpp@{main.cpp}!main@{main}|hyperpage}{39}
+\indexentry{main@{main}!main.cpp@{main.cpp}|hyperpage}{39}
+\indexentry{main.cpp@{main.cpp}!SolveAndWrite@{SolveAndWrite}|hyperpage}{40}
+\indexentry{SolveAndWrite@{SolveAndWrite}!main.cpp@{main.cpp}|hyperpage}{40}
+\indexentry{src/output.hpp@{src/output.hpp}|hyperpage}{40}
+\indexentry{output.hpp@{output.hpp}!BOLD@{BOLD}|hyperpage}{42}
+\indexentry{BOLD@{BOLD}!output.hpp@{output.hpp}|hyperpage}{42}
+\indexentry{output.hpp@{output.hpp}!CYAN@{CYAN}|hyperpage}{42}
+\indexentry{CYAN@{CYAN}!output.hpp@{output.hpp}|hyperpage}{42}
+\indexentry{output.hpp@{output.hpp}!GREEN@{GREEN}|hyperpage}{42}
+\indexentry{GREEN@{GREEN}!output.hpp@{output.hpp}|hyperpage}{42}
+\indexentry{output.hpp@{output.hpp}!MAGENTA@{MAGENTA}|hyperpage}{42}
+\indexentry{MAGENTA@{MAGENTA}!output.hpp@{output.hpp}|hyperpage}{42}
+\indexentry{output.hpp@{output.hpp}!RED@{RED}|hyperpage}{42}
+\indexentry{RED@{RED}!output.hpp@{output.hpp}|hyperpage}{42}
+\indexentry{output.hpp@{output.hpp}!RESET@{RESET}|hyperpage}{42}
+\indexentry{RESET@{RESET}!output.hpp@{output.hpp}|hyperpage}{42}
+\indexentry{src/output\_imp.hpp@{src/output\_imp.hpp}|hyperpage}{43}
+\indexentry{output\_imp.hpp@{output\_imp.hpp}!centerText@{centerText}|hyperpage}{44}
+\indexentry{centerText@{centerText}!output\_imp.hpp@{output\_imp.hpp}|hyperpage}{44}
+\indexentry{output\_imp.hpp@{output\_imp.hpp}!complexToString@{complexToString}|hyperpage}{44}
+\indexentry{complexToString@{complexToString}!output\_imp.hpp@{output\_imp.hpp}|hyperpage}{44}
+\indexentry{src/solver.hpp@{src/solver.hpp}|hyperpage}{45}
+\indexentry{src/solver\_imp.hpp@{src/solver\_imp.hpp}|hyperpage}{46}
+\indexentry{test/test.cpp@{test/test.cpp}|hyperpage}{47}
+\indexentry{test.cpp@{test.cpp}!CleanUpTempFile@{CleanUpTempFile}|hyperpage}{48}
+\indexentry{CleanUpTempFile@{CleanUpTempFile}!test.cpp@{test.cpp}|hyperpage}{48}
+\indexentry{test.cpp@{test.cpp}!RunSolverAndThrow@{RunSolverAndThrow}|hyperpage}{49}
+\indexentry{RunSolverAndThrow@{RunSolverAndThrow}!test.cpp@{test.cpp}|hyperpage}{49}
+\indexentry{test.cpp@{test.cpp}!TEST\_F@{TEST\_F}|hyperpage}{49}
+\indexentry{TEST\_F@{TEST\_F}!test.cpp@{test.cpp}|hyperpage}{49}
+\indexentry{test.cpp@{test.cpp}!TEST\_F@{TEST\_F}|hyperpage}{49}
+\indexentry{TEST\_F@{TEST\_F}!test.cpp@{test.cpp}|hyperpage}{49}
+\indexentry{test.cpp@{test.cpp}!TEST\_F@{TEST\_F}|hyperpage}{49}
+\indexentry{TEST\_F@{TEST\_F}!test.cpp@{test.cpp}|hyperpage}{49}
+\indexentry{test.cpp@{test.cpp}!TEST\_F@{TEST\_F}|hyperpage}{50}
+\indexentry{TEST\_F@{TEST\_F}!test.cpp@{test.cpp}|hyperpage}{50}
+\indexentry{test.cpp@{test.cpp}!TEST\_F@{TEST\_F}|hyperpage}{50}
+\indexentry{TEST\_F@{TEST\_F}!test.cpp@{test.cpp}|hyperpage}{50}
+\indexentry{test.cpp@{test.cpp}!TEST\_F@{TEST\_F}|hyperpage}{50}
+\indexentry{TEST\_F@{TEST\_F}!test.cpp@{test.cpp}|hyperpage}{50}
+\indexentry{test.cpp@{test.cpp}!TEST\_F@{TEST\_F}|hyperpage}{50}
+\indexentry{TEST\_F@{TEST\_F}!test.cpp@{test.cpp}|hyperpage}{50}
+\indexentry{test.cpp@{test.cpp}!TEST\_F@{TEST\_F}|hyperpage}{51}
+\indexentry{TEST\_F@{TEST\_F}!test.cpp@{test.cpp}|hyperpage}{51}
+\indexentry{test.cpp@{test.cpp}!TEST\_F@{TEST\_F}|hyperpage}{51}
+\indexentry{TEST\_F@{TEST\_F}!test.cpp@{test.cpp}|hyperpage}{51}
+\indexentry{test.cpp@{test.cpp}!TEST\_F@{TEST\_F}|hyperpage}{51}
+\indexentry{TEST\_F@{TEST\_F}!test.cpp@{test.cpp}|hyperpage}{51}
+\indexentry{test.cpp@{test.cpp}!TEST\_F@{TEST\_F}|hyperpage}{52}
+\indexentry{TEST\_F@{TEST\_F}!test.cpp@{test.cpp}|hyperpage}{52}
+\indexentry{test.cpp@{test.cpp}!TEST\_F@{TEST\_F}|hyperpage}{52}
+\indexentry{TEST\_F@{TEST\_F}!test.cpp@{test.cpp}|hyperpage}{52}
+\indexentry{test.cpp@{test.cpp}!TEST\_F@{TEST\_F}|hyperpage}{52}
+\indexentry{TEST\_F@{TEST\_F}!test.cpp@{test.cpp}|hyperpage}{52}
+\indexentry{test.cpp@{test.cpp}!TEST\_F@{TEST\_F}|hyperpage}{53}
+\indexentry{TEST\_F@{TEST\_F}!test.cpp@{test.cpp}|hyperpage}{53}
+\indexentry{test.cpp@{test.cpp}!WriteToTempFile@{WriteToTempFile}|hyperpage}{53}
+\indexentry{WriteToTempFile@{WriteToTempFile}!test.cpp@{test.cpp}|hyperpage}{53}
