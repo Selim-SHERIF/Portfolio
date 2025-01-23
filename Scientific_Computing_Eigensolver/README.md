@@ -122,7 +122,15 @@ The input file should define the following parameters
 | `MATRIX_DATA`  | Matrix dimensions and values                      | Matrix must be square                | N/A                |
 
 Below is an example of the input file when the matrix is **real**:
-$$A = \begin{pmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9\end{pmatrix}$$
+
+$$
+A = \begin{pmatrix} 
+1 & 2 & 3 \\
+4 & 5 & 6 \\
+7 & 8 & 9
+\end{pmatrix}
+$$
+
 ```
 MAX_ITER 500
 TOLERANCE 1e-10
