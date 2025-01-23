@@ -145,7 +145,13 @@ MATRIX_DATA
 ```
 
 and when the matrix is **complex**:
-$$A = \begin{pmatrix} 1+2i & -3+4i \\ i & -2+i\end{pmatrix}$$
+$$
+A = \begin{pmatrix} 
+1+2i & -3+4i \\
+i & -2+i
+\end{pmatrix}
+$$
+
 ```
 MAX_ITER 500
 TOLERANCE 1e-10
