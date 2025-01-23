@@ -1,7 +1,5 @@
 # Scientific Computing & Coding 💻
-
 ## What is the Difference Between Regular Coding and Scientific Computing?
-
 Scientific computing extends beyond functional programming to focus on **optimization**, **efficiency**, **scalability**, and **polymorphism**. It prioritizes extracting the best performance from code while maintaining clarity, flexibility, and reusability.
 
 Key aspects that distinguish scientific computing:
@@ -15,7 +13,6 @@ As a specialist in **Computational Science and Engineering**, mastering these pr
 ---
 
 # Eigenvalue Solver 🧮
-
 ## Tools Used 🛠️
 - **Programming Language**: C++
 - **Build System**: CMake
@@ -23,7 +20,6 @@ As a specialist in **Computational Science and Engineering**, mastering these pr
 - **Version Control**: Git
 - **Documentation**: Doxygen
 - **Software Testing**: Googletest
-
 ## The 3 Key Takeaways ✨
 - Implemented and compared three eigenvalue-solving methods: Power Method, Inverse Power Method with Shift, and QR Method.
 - Explored optimization techniques to enhance numerical algorithm performance and scalability for larger datasets.
