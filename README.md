@@ -42,7 +42,7 @@ To explore the portfolio:
 
 ---
 
-## 📬 Contact
+## Contact
 
 I would be happy to discuss my work or explore new opportunities. Feel free to reach out:
 

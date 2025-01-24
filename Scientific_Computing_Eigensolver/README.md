@@ -13,6 +13,17 @@ As a specialist in **Computational Science and Engineering**, mastering these pr
 ---
 
 # Eigenvalue Solver 🧮
+
+### Context
+This project was undertaken as part of the **MATH-458: EPFL Programming Concepts in Scientific Computing** course.
+
+
+### Authors:
+- **Selim SHERIF**
+- **Roy TURK**
+
+
+
 ## Tools Used 🛠️
 - **Programming Language**: C++
 - **Build System**: CMake
@@ -20,14 +31,11 @@ As a specialist in **Computational Science and Engineering**, mastering these pr
 - **Version Control**: Git
 - **Documentation**: Doxygen
 - **Software Testing**: Googletest
-## The 3 Key Takeaways ✨
+## The 3 Key Takeaways : 
 - Implemented and compared three eigenvalue-solving methods: Power Method, Inverse Power Method with Shift, and QR Method.
 - Explored optimization techniques to enhance numerical algorithm performance and scalability for larger datasets.
 - Understood the importance of writing factorized and modular code for reusability and long-term maintainability.
 
-**Authors**:
-- **Selim SHERIF**
-- **Roy TURK**
 
 ---
 

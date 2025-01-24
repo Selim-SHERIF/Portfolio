@@ -4,9 +4,9 @@
 
 **Authors**:
 
-- Ali Elkilesly (SCIPER 345334)
-- Selim Sherif (SCIPER 346035)
-- Roy Turk (SCIPER 345573)
+- Ali **Elkilesly**
+- Selim **Sherif** 
+- Roy **Turk** 
 
 ---
 
