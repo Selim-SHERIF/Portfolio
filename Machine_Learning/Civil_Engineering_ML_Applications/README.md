@@ -12,13 +12,6 @@ This repository contains three machine learning projects undertaken as part of t
 
 ---
 
-## Key Findings 💡
-1. **User Thermal Preference Prediction:** Logistic regression models provided interpretable insights during EDA, while Random Forest slightly improved predictive accuracy.
-2. **Binary Crack Detection:** Data augmentation significantly improved model performance, while overly aggressive regularization hindered accuracy.
-3. **Electricity Demand Forecasting:** XGBoost demonstrated the highest accuracy, showcasing the strength of feature-based predictions.
-
----
-
 ## The 3 Key Takeaways 📊
 1. Data preprocessing and feature engineering significantly impact model performance.
 2. Hyperparameter tuning and model evaluation are critical steps to achieving high accuracy and robustness.
