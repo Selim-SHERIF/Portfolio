@@ -58,6 +58,8 @@ This project was undertaken as part of the **MATH-458: EPFL Programming Concepts
 ---
 
 ## Project Overview
+![image](https://github.com/user-attachments/assets/448a17ea-40f4-496c-9256-ddefe1ab4d88)
+
 
 This repository implements three different methods to compute the eigenvalues of a matrix:
 1. **Power Method**
