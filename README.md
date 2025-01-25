@@ -21,14 +21,13 @@ Each folder includes:
 - **Project-specific subfolders**: Contain documentation, project reports, code, datasets, and results, where applicable.
 
 ---
+🛠 Purpose of the Portfolio
 
-## 🛠 Purpose of the Portfolio
+This portfolio is designed to:
 
-This portfolio aims to:
-
-- Provide a professional perspective on my approach to technical challenges and the insights I have gained from past work.
-- Highlight selected projects that showcase creativity, practicality, and analytical rigor, emphasizing my core strengths.
-- Serve as a dynamic record of my skills and accomplishments, regularly updated to reflect new projects, refined techniques, and evolving areas of interest.
+- Share insights and approaches to solving technical challenges based on past experiences.
+- Showcase selected projects that demonstrate a blend of analytical, practical, and creative problem-solving skills.
+- Act as a living record of my work, updated to reflect ongoing growth, new projects, and areas of focus.
 
 ---
 
