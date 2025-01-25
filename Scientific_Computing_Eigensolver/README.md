@@ -18,10 +18,6 @@ As a specialist in **Computational Science and Engineering**, mastering these pr
 This project was undertaken as part of the **MATH-458: EPFL Programming Concepts in Scientific Computing** course.
 
 
-### Authors:
-- **Selim SHERIF**
-- **Roy TURK**
-
 
 
 ## Tools Used 🛠️
@@ -342,3 +338,8 @@ If you have any questions, feedback, or issues with the project, feel free to co
 - **Roy Turk**: [roy.turk@epfl.ch](mailto:roy.turk@epfl.ch)
 
 ---
+
+
+### Authors:
+- **Selim SHERIF**
+- **Roy TURK**
