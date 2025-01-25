@@ -45,7 +45,7 @@ CFD_and_Aerodynamics/
 
 - **[Aerodynamics_of_a_fixed_weather_drone](./Aerodynamics_of_a_fixed_weather_drone)**: A comprehensive study on airfoil and wing characteristics, including lift curves and drag polars, using analytical, experimental, and numerical approaches.
 - **[Airfoil_Ground_Effect_Simulation](./Airfoil_Ground_Effect_Simulation)**: ANSYS Fluent project showcasing the ground effect of a NACA airfoil near the ground.
-- **[MECH4830_Introduction_to_Aerospace_CFD](./Flow_Simulation_2D__Cylinder_and_NACA_Airfoil_Analysis)**: A project focused on introducing aerospace CFD principles and techniques.
+- **[Flow_Simulation_2D__Cylinder_and_NACA_Airfoil_Analysis](./Flow_Simulation_2D__Cylinder_and_NACA_Airfoil_Analysis)**: A project focused on introducing aerospace CFD principles and techniques.
 
 ---
 ## About CFD

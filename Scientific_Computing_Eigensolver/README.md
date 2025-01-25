@@ -31,11 +31,11 @@ This project was undertaken as part of the **MATH-458: EPFL Programming Concepts
 - **Version Control**: Git
 - **Documentation**: Doxygen
 - **Software Testing**: Googletest
-## The 3 Key Takeaways : 
-- Implemented and compared three eigenvalue-solving methods: Power Method, Inverse Power Method with Shift, and QR Method.
-- Explored optimization techniques to enhance numerical algorithm performance and scalability for larger datasets.
-- Understood the importance of writing factorized and modular code for reusability and long-term maintainability.
 
+## The 3 Key Takeaways : 
+- Planning the project structure and class design is essential for scalability and organization.
+- Polymorphism plays a vital role in flexible and effective scientific computing.
+- Writing modular and factorized code ensures reusability and long-term maintainability.
 
 ---
 
