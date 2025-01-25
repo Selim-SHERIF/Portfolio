@@ -22,6 +22,7 @@ The goal of these labs was to develop a practical understanding of the OpenFOAM 
 
 This lab introduced OpenFOAM and focused on steady-state airflow around a 2D NACA-0012 airfoil. The objective was to understand the step-by-step process of setting up and running a CFD simulation.
 
+
 ![img.png](Images/img.png)
 
 **Key Areas of Study:**
