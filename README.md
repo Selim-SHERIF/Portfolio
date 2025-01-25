@@ -21,7 +21,7 @@ Each folder includes:
 - **Project-specific subfolders**: Contain documentation, project reports, code, datasets, and results, where applicable.
 
 ---
-🛠 Purpose of the Portfolio
+## 🛠 Purpose of the Portfolio
 
 This portfolio is designed to:
 
