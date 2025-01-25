@@ -48,7 +48,6 @@ I would be happy to discuss my work or explore new opportunities. Feel free to r
 
 - **Email**: selimsherif@outlook.com
 - **LinkedIn**: https://www.linkedin.com/in/selim-sherif/
-- **GitHub**: https://github.com/Selim-SHERIF
 
 Thank you for taking the time to explore my portfolio. I look forward to connecting.
 
