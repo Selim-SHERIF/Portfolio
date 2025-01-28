@@ -43,7 +43,7 @@ This lab introduced OpenFOAM and focused on steady-state airflow around a 2D NAC
 
 <img src="Images/img_2.png" alt="Velocity Field Around the Airfoil" width="300"/>  
 
-**Figure: Velocity field around the airfoil**
+**Velocity field around the airfoil**
 
 --- 
 
