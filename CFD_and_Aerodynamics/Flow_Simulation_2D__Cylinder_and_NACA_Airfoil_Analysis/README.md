@@ -4,7 +4,7 @@
 This project is a set of two labs undertaken as part of the **HKUST MECH-4830: Introduction to Aerospace CFD** course.
 
 ## Tools Used 🛠️
-- **Data Postprocessing**: Matlab, Paraview, Linux command line
+- **Data Postprocessing**: Matlab, Paraview, ShellScript
 - **Report Documentation**: LaTeX
 - **Numerical Simulation**: OpenFOAM
 
