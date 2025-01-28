@@ -27,7 +27,7 @@ This project analyzed the behavior of various NACA airfoils using three scientif
 
   ![Experimental Setup](Images/wind_tunnel.png)
 
-Finally, all results were compiled into a project report, which is shared in this repository. Unfortunately, the original XFLR5 files are no longer available, but the results are easily reproducible.  
+Finally, all results were compiled into a project report: 
 
 ### Author 👨‍🔬
 - **Selim SHERIF**
