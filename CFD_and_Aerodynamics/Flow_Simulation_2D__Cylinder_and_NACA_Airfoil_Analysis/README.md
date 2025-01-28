@@ -33,15 +33,19 @@ This lab introduced OpenFOAM and focused on steady-state airflow around a 2D NAC
 
 
 - **Computational Domain and Mesh Generation:**  
-  The influence of computational domain size on results was explored. Mesh independence tests were conducted to ensure accuracy without unnecessary computational expense.
+  The impact of computational domain size on results was analyzed. Mesh independence tests were performed to ensure accuracy without incurring unnecessary computational costs.
+
 - **Numerical Schemes and Solver Settings:**  
-  Different numerical schemes were tested to assess their impact on simulation results. Solver settings, including relaxation factors, were optimized for better convergence and stability.
+  Various numerical schemes were evaluated to determine their effect on simulation results. Solver settings, such as relaxation factors, were fine-tuned for improved convergence and stability.
 
 - **Aerodynamic Performance Analysis:**  
-  Lift and drag coefficients were calculated for varying angles of attack. Results were compared to theoretical and experimental data to evaluate the simulation's accuracy.
-  <img src="Images/img_2.png" alt="img_2" width="300"/>
-Image of the veloctu fiels roundthe airfoil
----
+  Lift and drag coefficients were calculated for different angles of attack. The results were validated against theoretical and experimental data to assess the simulation's accuracy.
+
+<img src="Images/img_2.png" alt="Velocity Field Around the Airfoil" width="300"/>  
+
+**Figure: Velocity field around the airfoil**
+
+--- 
 
 ### LAB 2: Unsteady Airflow Around a 2D Cylinder
 ![img_4.png](Images/img_4.png)
