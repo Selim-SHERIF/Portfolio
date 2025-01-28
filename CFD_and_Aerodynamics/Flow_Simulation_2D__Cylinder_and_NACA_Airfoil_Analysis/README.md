@@ -28,7 +28,8 @@ This lab introduced OpenFOAM and focused on steady-state airflow around a 2D NAC
 **Key Areas of Study:**
 - **Case Setup and Parameter Definition:**  
   The lab began by defining simulation parameters, including fluid properties, initial conditions, and boundary conditions. Governing equations and assumptions, such as the incompressibility of airflow, were outlined.
-![img_1.png](Images/img_1.png)
+  ![img_1](Images/img_1.png){ width=300px }
+
 - **Computational Domain and Mesh Generation:**  
   The influence of computational domain size on results was explored. Mesh independence tests were conducted to ensure accuracy without unnecessary computational expense.
 - **Numerical Schemes and Solver Settings:**  
