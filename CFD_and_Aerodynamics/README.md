@@ -39,13 +39,16 @@ CFD_and_Aerodynamics/
 ├── README.md         # Overview of the Directory
 ├── Aerodynamics_of_a_fixed_weather_drone
 ├── Airfoil_Ground_Effect_Simulation
-└── Flow Simulation: 2D Cylinder and NACA Airfoil Analysis 
+├── Flow_Simulation:_2D_Cylinder_and_NACA_Airfoil_Analysis 
+└── Particle_Deposition_Prediction_in_a_90-Degree_Bend
+
 ```
 ### Brief Project Summaries
 
-- **[Aerodynamics_of_a_fixed_weather_drone](./Aerodynamics_of_a_fixed_weather_drone)**: A comprehensive study on airfoil and wing characteristics, including lift curves and drag polars, using analytical, experimental, and numerical approaches.
-- **[Airfoil_Ground_Effect_Simulation](./Airfoil_Ground_Effect_Simulation)**: ANSYS Fluent project showcasing the ground effect of a NACA airfoil near the ground.
-- **[Flow_Simulation_2D__Cylinder_and_NACA_Airfoil_Analysis](./Flow_Simulation_2D__Cylinder_and_NACA_Airfoil_Analysis)**: A project focused on introducing aerospace CFD principles and techniques.
+- **[Aerodynamics of a Fixed Weather Drone](./Aerodynamics_of_a_fixed_weather_drone)**: An in-depth analysis of airfoil and wing performance, exploring lift curves, drag polars, and aerodynamic efficiency through analytical, experimental, and numerical methods.
+- **[Airfoil Ground Effect Simulation](./Airfoil_Ground_Effect_Simulation)**: A simulation study using ANSYS Fluent to investigate the aerodynamic effects of a NACA airfoil operating near the ground.
+- **[Flow Simulation: 2D Cylinder and NACA Airfoil Analysis](./Flow_Simulation_2D__Cylinder_and_NACA_Airfoil_Analysis)**: An introduction to CFD principles and techniques, focusing on simulations of 2D steady and unsteady flows using OpenFOAM.
+- **[Particle Deposition Prediction in a 90-Degree Bend](./Particle_Deposition_Prediction_in_a_90-Degree_Bend)**: A project using T-Flows to model particle deposition and Lagrangian tracking in a 90-degree bend pipe.
 
 ---
 ## About CFD

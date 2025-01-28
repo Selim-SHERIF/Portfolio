@@ -86,4 +86,4 @@ This study effectively demonstrated the impact of ground proximity on airfoil pe
 - **Roy TURK**
 - **Jan ZGRAGGEN**
 
-For further details or inquiries, feel free to contact me!
+For further details or inquiries, feel free to [contact me](../../README.md#contact)

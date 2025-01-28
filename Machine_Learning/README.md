@@ -16,15 +16,16 @@ The following projects are included in this directory:
 ```
 CFD_and_Aerodynamics/
 ├── README.md         # Overview of the Directory
+├── Civil_Engineering_ML_Applications
 ├── Predicting_Cardiovascular_Disease_Using_Logistic_Regression
-├── Tweet_Sentiment_Analysis_(BERT)
-└── 
+└── Tweet_Sentiment_Analysis_(BERT) 
 ```
 
 ### Brief Project Summaries
+- **[Civil Engineering ML Applications](./Civil_Engineering_ML_Applications)**: A set of 3 labs consisiting of ML applicatiion in the context of Civil Engeinnering.
 
-- **[Predicting_Cardiovascular_Disease_Using_Logistic_Regression](./Predicting_Cardiovascular_Disease_Using_Logistic_Regression)**: This project uses **logistic regression** to predict the likelihood of cardiovascular disease based on various health indicators. The model was built from scratch using only Python and the **NumPy** library.
+- **[Predicting Cardiovascular Disease Using Logistic Regression](./Predicting_Cardiovascular_Disease_Using_Logistic_Regression)**: This project uses **logistic regression** to predict the likelihood of cardiovascular disease based on various health indicators. The model was built from scratch using only Python and the **NumPy** library.
 
-- **[Tweet_Sentiment_Analysis_using_BERT](./Tweet_Sentiment_Analysis_(BERT))**: This project applies the **BERT** model (in contrast to shallow models) to perform sentiment analysis on Twitter data. It analyzes tweet content and categorizes sentiment as either positive or negative.
+- **[Tweet Sentiment Analysis using BERT](./Tweet_Sentiment_Analysis_(BERT))**: This project applies the **BERT** model (in contrast to shallow models) to perform sentiment analysis on Twitter data. It analyzes tweet content and categorizes sentiment as either positive or negative.
 
  

@@ -71,12 +71,6 @@ These metrics were evaluated through the AI Crowd competition platform, where th
 
 ---
 
-## Acknowledgments
-
-This project was a collaborative effort by **Pandas Group**, utilizing machine learning techniques to address a critical healthcare challenge.
-
----
-
 ### Authors 
 Pandas Group: 
 
