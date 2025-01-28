@@ -27,7 +27,7 @@ This project analyzed the behavior of various NACA airfoils using three scientif
 
   ![Experimental Setup](Images/wind_tunnel.png)
 
-Finally, all results were compiled into a project report: 
+Finally, all results were compiled into a project report: **Project Report.pdf**
 
 ### Author 👨‍🔬
 - **Selim SHERIF**
