@@ -39,7 +39,7 @@ This lab introduced OpenFOAM and focused on steady-state airflow around a 2D NAC
 
 - **Aerodynamic Performance Analysis:**  
   Lift and drag coefficients were calculated for varying angles of attack. Results were compared to theoretical and experimental data to evaluate the simulation's accuracy.
-![img_2.png](Images/img_2.png)
+  <img src="Images/img_2.png" alt="img_2" width="300"/>
 Image of the veloctu fiels roundthe airfoil
 ---
 
