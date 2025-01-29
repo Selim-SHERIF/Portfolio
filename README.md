@@ -9,7 +9,6 @@ Welcome to my portfolio, where I present a curated selection of projects that re
 ```
 selim-sherif-portfolio/
 ├── README.md                 # Overview of the portfolio
-├── SelimSherif_CV.pdf        # My CV
 ├── machine-learning/         # Example: Machine Learning projects
 ├── cfd/                      # Example: Computational Fluid Dynamics projects
 ├── another-topic/            # Example: Miscellaneous projects
