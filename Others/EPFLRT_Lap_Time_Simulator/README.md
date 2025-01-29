@@ -13,7 +13,7 @@ This project is **closed-source**, and implementation details cannot be shared p
 ---
 
 ## 🛠️ Tools & Technologies
-- **Software**: Matlab’s Simulink, Matlab, Simscap
+- **Software**: Matlab’s Simulink, Matlab, Simscape
 - **Coding Paradigm**: Connective-based, modular system modeling
 
 ---
