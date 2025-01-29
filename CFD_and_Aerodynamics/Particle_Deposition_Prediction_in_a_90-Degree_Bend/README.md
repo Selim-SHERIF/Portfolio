@@ -66,7 +66,7 @@ Particle_Deposition_Prediction_in_a_90-Degree_Bend/
 ---
 
 ## References
-1. Sayed, M. A. H. M. (2022). *On the Capability of Wall-Modeled Large Eddy Simulations to Predict Particle Dispersion in Complex Turbulent Flows*. EPFL Thesis No. 10054. [Link]([https://infoscience.epfl.ch/record/290555](https://infoscience.epfl.ch/entities/publication/3dd44c56-3d5a-4536-a7d4-268ee04703b0)).
+1. Sayed, M. A. H. M. (2022). *On the Capability of Wall-Modeled Large Eddy Simulations to Predict Particle Dispersion in Complex Turbulent Flows*. EPFL Thesis No. 10054. [Link](https://infoscience.epfl.ch/record/290555](https://infoscience.epfl.ch/entities/publication/3dd44c56-3d5a-4536-a7d4-268ee04703b0).
 
 ---
 
