@@ -1,14 +1,14 @@
-# Particle Deposition Prediction Around a 90-Degree Bend
+# Particle Deposition Prediction Around a 90-Degree Bend  🌊
 
 ### Context:
 This project was completed as part of the **[**CFD Dose**](https://www.cfddose.com/) Comprehensive Mentorship** program led by [**Mohamed Aly Sayed**](https://www.linkedin.com/in/mohamedsayedh/?originalSubdomain=ch).
 
 ---
 
-## Key Takeaways
-1. **Turbulence Modeling Significance**: The choice of turbulence models (e.g., k-ε, RANS/LES) significantly affects deposition accuracy.
-2. **Particle Diameter Influence**: Larger particles exhibit higher deposition rates due to stronger inertia.
-3. **Mesh Refinement**: Detailed mesh near bends and walls is crucial for reliable predictions.
+## 3 Key Takeaways 📊
+1. **Turbulence Modeling Matters**: The choice of turbulence models (e.g., k-ε, RANS/LES) significantly impacts deposition accuracy.  
+2. **Particle Deposition Behavior**: Deposition efficiency follows an **S-shaped (logistic-like) curve** with particle size.  
+3. **Open-Source Trade-off**: Open-source CFD tools offer **greater customizability** but are **more complex to set up and run**.  
 
 ---
 
