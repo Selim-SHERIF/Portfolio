@@ -335,13 +335,9 @@ We would like to express our gratitude to
 
 # Support
 
-If you have any questions, feedback, or issues with the project, feel free to contact us!
+If you have any questions, feedback, or issues with the project, feel free to contact the authors!
 - **Selim Sherif**: [selim.sherif@epfl.ch](mailto:selim.sherif@epfl.ch)
 - **Roy Turk**: [roy.turk@epfl.ch](mailto:roy.turk@epfl.ch)
 
 ---
 
-
-### Authors:
-- **Selim SHERIF**
-- **Roy TURK**
