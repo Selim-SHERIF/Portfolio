@@ -28,7 +28,7 @@ This project was undertaken as part of the **MATH-458: EPFL Programming Concepts
 - **Documentation**: Doxygen
 - **Software Testing**: Googletest
 
-## The 3 Key Takeaways : 
+## The 3 Key Takeaways 📊: 
 - Planning the project structure and class design is essential for scalability and organization.
 - Polymorphism plays a vital role in flexible and effective scientific computing.
 - Writing modular and factorized code ensures reusability and long-term maintainability.
