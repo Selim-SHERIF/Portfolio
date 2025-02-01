@@ -312,7 +312,10 @@ The project has the following limitations:
           The implementation does **not** support real matrices with complex eigenvalues. This limitation exists because the methods assume
           that eigenvalues will be of the same type as the input matrix. For example, consider the rotation matrix
           $$
-          A = \begin{pmatrix}1 & -1 \\ 1 & 1\end{pmatrix}
+          A = \begin{pmatrix}
+          1 & -1 \\
+           1 & 1
+          \end{pmatrix}
           $$. This matrix has eigenvalues $\lambda=1\pm i$. However, do to our aforementioned limitation,
           the current implementation cannot compute these eigenvalues.
 3. Input format
