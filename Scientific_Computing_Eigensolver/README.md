@@ -317,8 +317,8 @@ The project has the following limitations:
 
 $$
 A = \begin{pmatrix} 
-1 & -1 &\\
-1 & 1 &
+1 & -1 \\
+1 & 1 
 \end{pmatrix}
 $$
 
