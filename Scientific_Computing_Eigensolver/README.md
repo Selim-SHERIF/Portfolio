@@ -314,9 +314,10 @@ The project has the following limitations:
           $$
           A = \begin{pmatrix}
           1 & -1 \\
-           1 & 1
+          1 & 1
           \end{pmatrix}
-          $$. This matrix has eigenvalues $\lambda=1\pm i$. However, do to our aforementioned limitation,
+          $$
+          This matrix has eigenvalues $\lambda=1\pm i$. However, do to our aforementioned limitation,
           the current implementation cannot compute these eigenvalues.
 3. Input format
     - The input file format is strict and must follow a specific structure. The matrix and the problem parameters are both
