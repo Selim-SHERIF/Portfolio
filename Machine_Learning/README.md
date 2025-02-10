@@ -22,9 +22,9 @@ CFD_and_Aerodynamics/
 ```
 
 ### Brief Project Summaries
-- **[Civil Engineering ML Applications](./Civil_Engineering_ML_Applications)**: A set of 3 labs consisiting of ML applicatiion in the context of Civil Engeinnering.
+- **[Civil Engineering ML Applications](./Civil_Engineering_ML_Applications)**: A set of 3 labs consisting of ML applicatiion in the context of Civil Engineering.
 
-- **[Predicting Cardiovascular Disease Using Logistic Regression](./Predicting_Cardiovascular_Disease_Using_Logistic_Regression)**: This project uses **logistic regression** to predict the likelihood of cardiovascular disease based on various health indicators. The model was built from scratch using only Python and the **NumPy** library.
+- **[Predicting Cardiovascular Disease Using Logistic Regression](./Predicting_Cardiovascular_Disease_Using_Logistic_Regression)**: This project uses **logistic regression** to predict the likelihood of cardiovascular disease based on various health indicators. The model was built from scratch using only **Python** and the **NumPy** library.
 
 - **[Tweet Sentiment Analysis using BERT](./Tweet_Sentiment_Analysis_(BERT))**: This project applies the **BERT** model (in contrast to shallow models) to perform sentiment analysis on Twitter data. It analyzes tweet content and categorizes sentiment as either positive or negative.
 

@@ -22,7 +22,7 @@ This project analyzed the behavior of various NACA airfoils using three scientif
 
   ![Numerical Simulation](Images/logo.png)
 
-- The **Experimental data** was gathered using the state-of-the-art wind tunnel at HKUST's Aerodynamics and Acoustics Facility (AAF).  
+- The **Experimental data** was gathered using an open loop wind tunnel at HKUST's state of the art Aerodynamics and Acoustics Facility (AAF).  
   [Visit AAF Website](https://aaf.ust.hk/)
 
   ![Experimental Setup](Images/wind_tunnel.png)

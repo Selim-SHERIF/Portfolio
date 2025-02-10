@@ -137,6 +137,8 @@ A = \begin{pmatrix}
 \end{pmatrix}
 $$
 
+      
+
 ```
 MAX_ITER 500
 TOLERANCE 1e-10
@@ -310,8 +312,17 @@ The project has the following limitations:
         - Real matrices with real eigenvalues: fully supported.
         - Complex matrices: supports computation of eigenvalues of any type (real or complex).
           The implementation does **not** support real matrices with complex eigenvalues. This limitation exists because the methods assume
-          that eigenvalues will be of the same type as the input matrix. For example, consider the rotation matrix
-          $$A = \begin{pmatrix}1 & -1 \\ 1 & 1\end{pmatrix}$$. This matrix has eigenvalues $\lambda=1\pm i$. However, do to our aforementioned limitation,
+          that eigenvalues will be of the same type as the input matrix. For example, consider the rotation matrix:
+          
+
+$$
+A = \begin{pmatrix} 
+1 & -1 \\
+1 & 1 
+\end{pmatrix}
+$$
+
+          This matrix has eigenvalues $\lambda=1\pm i$. However, do to our aforementioned limitation,
           the current implementation cannot compute these eigenvalues.
 3. Input format
     - The input file format is strict and must follow a specific structure. The matrix and the problem parameters are both
