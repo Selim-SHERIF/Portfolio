@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeSettings">
+    <configurations />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2c61b299-15d4-4f61-a524-45af5ce6e320" name="Changes" comment="README.md Update">
+      <change afterPath="$PROJECT_DIR$/Conception_of_Anti-Buckling_Ring_ [EPFL_Rocket_Team]/Images/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Conception_of_Anti-Buckling_Ring_ [EPFL_Rocket_Team]/Images/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Conception_of_Anti-Buckling_Ring_ [EPFL_Rocket_Team]/Images/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Conception_of_Anti-Buckling_Ring_ [EPFL_Rocket_Team]/Images/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Conception_of_Anti-Buckling_Ring_ [EPFL_Rocket_Team]/Images/img_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Conception_of_Anti-Buckling_Ring_ [EPFL_Rocket_Team]/Images/img_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Conception_of_Anti-Buckling_Ring_ [EPFL_Rocket_Team]/Images/img_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Conception_of_Anti-Buckling_Ring_ [EPFL_Rocket_Team]/Images/img_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Conception_of_Anti-Buckling_Ring_ [EPFL_Rocket_Team]/Images/img_9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CFD_and_Aerodynamics/Aerodynamics_of_a_fixed_weather_drone/Aerodynamics of a fixed weather drone.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CFD_and_Aerodynamics/Aerodynamics_of_a_fixed_weather_drone/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CFD_and_Aerodynamics/Aerodynamics_of_a_fixed_weather_drone/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CFD_and_Aerodynamics/Airfoil_Ground_Effect_Simulation/Airfoil Ground Effect.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CFD_and_Aerodynamics/Airfoil_Ground_Effect_Simulation/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CFD_and_Aerodynamics/Airfoil_Ground_Effect_Simulation/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine_Learning/Predicting_Cardiovascular_Disease_Using_Logistic_Regression/Predicting Cardiovascular Diseases Using Logistic Regression.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Machine_Learning/Predicting_Cardiovascular_Disease_Using_Logistic_Regression/Predicting_Cardiovascular_Diseases_Using_Logistic_Regression.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine_Learning/Predicting_Cardiovascular_Disease_Using_Logistic_Regression/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Machine_Learning/Predicting_Cardiovascular_Disease_Using_Logistic_Regression/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/AnalyseT1.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/Billard2023.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/Billiard2023_Documentation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/BorderHitStyle.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/CommandLine.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/Error_1.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/Error_2.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/Error_3.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/Generated Sequences/AnalyseT1.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/Generated Sequences/AnalyseT3.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/Generated Sequences/AnalyseT4.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/Generated Sequences/AnalyseT5.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/Generated Sequences/AnalyseT6.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/Generated Sequences/AnalyseT7.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/Generated Sequences/AnalyseT8.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/Generated Sequences/AnalyseT9.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/Generated Sequences/Read me.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/Generated Sequences/ScoreSheetT1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/Generated Sequences/ScoreSheetT3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/Generated Sequences/ScoreSheetT4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/Generated Sequences/ScoreSheetT5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/Generated Sequences/ScoreSheetT6.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/Generated Sequences/ScoreSheetT7.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/Generated Sequences/ScoreSheetT8.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/Generated Sequences/ScoreSheetT9.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/GetBallMoveOrder.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/GetBallPathLength.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/GetFirstMoveIdx.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/GetFrame.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/GetTouchIdx.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/InterpolateNan.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/LineStyle.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/MATLAB.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/MP_LaunchMatlabScript3.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/MarkerStyle.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/PIX2POS.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/PIXMAP.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/PNG.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/POS.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/Pix2Pos.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/Pix2Pos.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/Pixmap.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/Pos.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/RemoveOutlier.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/ScoreSheetT1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/Coding Projects/Carom's Billiard Game/TableLimits.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/EPFLRT_Lap_Time_Simulator/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Others/EPFLRT_Lap_Time_Simulator/img.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2sFilJ5sr26Qu9jRjZYG0BypwkO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/selim_sherif/Documents/Portfolio/CFD_and_Aerodynamics/Particle_Deposition_Prediction_in_a_90-Degree_Bend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CFD_and_Aerodynamics/Particle_Deposition_Prediction_in_a_90-Degree_Bend" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Conception_of_Anti-Buckling_Ring_ [EPFL_Rocket_Team]/Images" />
+      <recent name="$PROJECT_DIR$/CFD_and_Aerodynamics/Particle_Deposition_Prediction_in_a_90-Degree_Bend/Results" />
+      <recent name="$PROJECT_DIR$/CFD_and_Aerodynamics/Particle_Deposition_Prediction_in_a_90-Degree_Bend/Mesh" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c61b299-15d4-4f61-a524-45af5ce6e320" name="Changes" comment="README.md Update" />
+      <created>1738057873182</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738057873182</updated>
+      <workItem from="1738057874954" duration="1564000" />
+      <workItem from="1738167036911" duration="2246000" />
+      <workItem from="1738169383376" duration="84000" />
+      <workItem from="1738169938224" duration="659000" />
+      <workItem from="1739184987923" duration="8340000" />
+    </task>
+    <task id="LOCAL-00001" summary="README.md Update">
+      <option name="closed" value="true" />
+      <created>1738058080798</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738058080798</updated>
+    </task>
+    <task id="LOCAL-00002" summary="README.md Update">
+      <option name="closed" value="true" />
+      <created>1738058140100</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738058140100</updated>
+    </task>
+    <task id="LOCAL-00003" summary="README.md Update">
+      <option name="closed" value="true" />
+      <created>1738058199675</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738058199675</updated>
+    </task>
+    <task id="LOCAL-00004" summary="README.md Update">
+      <option name="closed" value="true" />
+      <created>1738058351500</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1738058351500</updated>
+    </task>
+    <task id="LOCAL-00005" summary="README.md Update">
+      <option name="closed" value="true" />
+      <created>1738058390035</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1738058390035</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="README.md Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="README.md Update" />
+  </component>
+</project>

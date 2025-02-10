@@ -1,2 +1,0 @@
-This folder contains all the MATLAB scripts and PDFs generated for all the given sequences.
-There is also a test with the sequence T1 in the previous folder with generated Pixmap.bin and Pos.txt files.

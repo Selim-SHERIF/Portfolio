@@ -12,6 +12,11 @@ This project was completed as part of the **EPFL ME-474: Numerical Flow Simulati
 
 ---
 
+## The 3 Key Takeaways 📊
+- **Automated Simulation Workflows:** Automating simulation processes can be highly beneficial, streamlining tasks and reducing manual errors.
+- **FLUENT as a Black Box:** While Ansys produces reliable outputs, it operates as a “black box,” meaning the underlying processes and computations remain hidden.
+- **Ground Effect on Lift:** The lift increase due to ground effect is minimal for typical aircraft wings; noticeable differences only occur when the aircraft is extremely close to the ground.
+
 ## Table of Contents 📑
 
 1. [Project Objectives](#project-objectives)

@@ -49,7 +49,7 @@ This project focuses on developing a binary classification model to predict coro
 	- Row 2: Feature types (1: continuous, 2: categorical, 3: ordinal).
 	- Row 3: Binary indicators (1: kept, 0: removed).
 - **`Dataset.zip`**: Compressed dataset used for training and evaluation.
-- **`ML_1_Report.pdf`**: Comprehensive project report detailing methods, implementation, and results.
+- **`Predicting_Cardiovascular_Diseases_Using_Logistic_Regression.pdf`**: Comprehensive project report detailing methods, implementation, and results.
 
 ### Feature Selection
 
