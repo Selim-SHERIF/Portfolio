@@ -1,51 +1,33 @@
-# Selim SHERIF's Portfolio
+# Selim Sherif — Engineering Portfolio
 
-Welcome to my portfolio, where I present a curated selection of projects that reflect my technical skills and areas of interest. This repository is designed to offer a clear and concise view of the work I’ve done, highlighting the skills I’ve developed, the challenges I’ve tackled, and the areas of work I find most engaging and enjoyable.
+M.Sc. Computational Science & Engineering @ EPFL | Simulation Engineer Intern @ Swisspod Technologies
 
----
-
-## 📂 Repository Structure
-
-```
-selim-sherif-portfolio/
-├── README.md                 # Overview of the portfolio
-├── machine-learning/         # Example: Machine Learning projects
-├── cfd/                      # Example: Computational Fluid Dynamics projects
-├── another-topic/            # Example: Miscellaneous projects
-└── ...
-```
-Each folder includes:
-
-- **README.md**: A concise summary of the domain, its purpose, and the key aspects of its projects.
-- **Project-specific subfolders**: Contain documentation, project reports, code, datasets, and results, where applicable.
-
----
-## 🛠 Purpose of the Portfolio
-
-This portfolio is designed to:
-
-- Share insights and approaches to solving technical challenges based on past experiences.
-- Showcase selected projects that demonstrate a blend of analytical, practical, and creative problem-solving skills.
-- Act as a living record of my work, updated to reflect ongoing growth, new projects, and areas of focus.
+This repository presents a curated selection of my technical work across electromagnetic simulation, computational fluid dynamics, machine learning, and vehicle simulation. Each domain folder contains project documentation, code, and results where publication is permitted; industry and team projects under confidentiality are documented at the overview level.
 
 ---
 
-## 🧭 How to Navigate
+## Domains
 
-To explore the portfolio:
+| Folder | Focus | Key tools |
+|---|---|---|
+| [Electromagnetics & FEM](./Electromagnetics_and_FEM) | Electromagnetic levitation, eddy currents, FEM simulation for hyperloop applications | COMSOL, MATLAB |
+| [CFD & Aerodynamics](./CFD_and_Aerodynamics) | Fluid flow simulation, particle tracking, aerodynamic analysis | OpenFOAM, T-Flows, ANSYS Fluent, XFLR5 |
+| [Machine Learning](./Machine_Learning) | Applied ML: NLP, medical prediction, infrastructure applications | PyTorch, BERT, Scikit-learn, NumPy |
+| [Vehicle Dynamics](./Vehicle_Dynamics) | Formula Student lap time simulation and vehicle modelling | MATLAB, Simulink, Simscape |
+| [Structural Design](./Structural_Design) | Rocket structural design, FEA, and manufacturing | SolidWorks, 3DEXPERIENCE |
+| [Scientific Computing](./Scientific_Computing) | High-performance numerical software design | C++, CMake, GoogleTest |
 
-1. **Select a Relevant Domain**: Browse the folders related to different technical areas, such as `CFD`, to find projects of interest.
-2. **Read the Overview**: Refer to the README.md in each folder for context.
-3. **Explore Projects**: Dive into individual subfolders for detailed documentation and results.
+---
+
+## Background
+
+- **M.Sc. Computational Science and Engineering**, EPFL (2024–2026) — Master thesis with Swisspod Technologies: *Modelling and Design of an Electromagnetic Levitation & Guidance System for Hyperloop Applications*
+- **B.Sc. Mechanical Engineering**, EPFL (2021–2024) — final year exchange at HKUST
+- **Simulation Engineer Intern**, Swisspod Technologies (2025–present)
 
 ---
 
 ## Contact
 
-I would be happy to discuss my work or explore new opportunities. Feel free to reach out:
-
 - **Email**: selimsherif@outlook.com
-- **LinkedIn**: https://www.linkedin.com/in/selim-sherif/
-
-Thank you for taking the time to explore my portfolio. I look forward to connecting.
-
+- **LinkedIn**: [linkedin.com/in/selim-sherif](https://www.linkedin.com/in/selim-sherif/)
