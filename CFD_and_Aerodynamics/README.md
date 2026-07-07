@@ -1,6 +1,6 @@
 # CFD & Aerodynamics
 
-Projects spanning open-source solvers (OpenFOAM, T-Flows), commercial tools (ANSYS Fluent), and low-order methods (XFLR5), progressing from fundamental flow simulations to specialised applications such as Lagrangian particle tracking and chaos theory.
+Projects in computational fluid dynamics and aerodynamic analysis, spanning open-source solvers (OpenFOAM, T-Flows), commercial tools (ANSYS Fluent), and low-order methods (XFLR5). The projects progress from fundamental flow simulations to specialised applications such as Lagrangian particle tracking and tubulence theory.
 
 Developed through coursework at EPFL and HKUST, and a year-long CFD mentorship with [Mohamed Aly Sayed](https://www.linkedin.com/in/mohamedsayedh/) ([CFD Dose](https://www.cfddose.com/)).
 
