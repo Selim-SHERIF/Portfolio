@@ -10,6 +10,3 @@ Two reports are included in this folder:
 
 - **Semester Project** — Modelling and control of a Linear Induction Motor for High speed Electromagnetic Propulsion: Controller Design, Analytical Models for Electrical Machines. *(MATLAB/Simulink)*
 
----
-
-Both projects are carried out in collaboration with Swisspod Technologies and are subject to confidentiality. Feel free to reach out to discuss the methodology directly.
