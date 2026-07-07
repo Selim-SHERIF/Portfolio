@@ -1,6 +1,6 @@
 # Electromagnetics & FEM Simulation
 
-Finite element modelling of electromagnetic systems, with a focus on magnetic levitation for high-speed transportation. This work is carried out as part of my Master thesis at EPFL in collaboration with **Swisspod Technologies**.
+Finite element modelling of electromagnetic systems, with a focus on magnetic levitation for high-speed transportation. This work is carried out as part of my Master degree at EPFL in collaboration with **Swisspod Technologies**.
 
 ---
 
