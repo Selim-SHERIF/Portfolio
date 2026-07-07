@@ -83,8 +83,4 @@ These future developments aim to increase the simulator's accuracy, usability, a
 
 ---
 
-## Thank You! 🙏
-Thank you for reading! If you would like to discuss this project further or have any questions, feel free to [contact me](../../README.md#contact)
 
-
----
