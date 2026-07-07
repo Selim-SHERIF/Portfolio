@@ -11,7 +11,7 @@ A selection of my technical projects across electromagnetic simulation, CFD, mac
 | [CFD & Aerodynamics](./CFD_and_Aerodynamics) | Fluid flow simulation, particle tracking, aerodynamic analysis | OpenFOAM, T-Flows, ANSYS Fluent, XFLR5 |
 | [Machine Learning](./Machine_Learning) | Applied ML: NLP, medical prediction, infrastructure applications | PyTorch, BERT, Scikit-learn, NumPy... |
 | [Vehicle Dynamics](./Vehicle_Dynamics) | Formula Student lap time simulation and vehicle modelling | MATLAB, Simulink, Simscape |
-| [Structural Design](./Structural_Design) | Rocket structural design, FEA, and manufacturing | SolidWorks, 3DEXPERIENCE |
+| [Structural Design](./Structural_Design) | Rocket structural design, Basic FEA, and manufacturing | SolidWorks, 3DEXPERIENCE |
 | [Scientific Computing](./Scientific_Computing) | High-performance numerical software design | C++, CMake, GoogleTest |
 
 ---

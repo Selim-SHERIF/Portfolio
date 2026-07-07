@@ -1,6 +1,6 @@
 # Electromagnetics & FEM Simulation
 
-Finite element modelling of electromagnetic systems, with a focus on magnetic levitation for high-speed transportation. This work is carried out as part of my Master thesis at EPFL in collaboration with **Swisspod Technologies**.
+Finite element modelling of electromagnetic systems, with a focus on magnetic levitation for high-speed transportation. This work is carried out as part of my Master degree at EPFL in collaboration with **Swisspod Technologies**.
 
 ---
 
@@ -10,6 +10,3 @@ Two reports are included in this folder:
 
 - **Semester Project** — Modelling and control of a Linear Induction Motor for High speed Electromagnetic Propulsion: Controller Design, Analytical Models for Electrical Machines. *(MATLAB/Simulink)*
 
----
-
-Both projects are carried out in collaboration with Swisspod Technologies and are subject to confidentiality. Feel free to reach out to discuss the methodology directly.
