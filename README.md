@@ -1,6 +1,7 @@
 # Selim Sherif — Engineering Portfolio
 
 A selection of my technical projects across electromagnetic simulation, CFD, machine learning, vehicle dynamics, and more.
+
 ---
 
 ## Domains
