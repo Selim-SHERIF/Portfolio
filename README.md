@@ -1,8 +1,6 @@
 # Selim Sherif — Engineering Portfolio
 
-
-This repository presents a curated selection of my technical work across electromagnetic simulation, computational fluid dynamics, machine learning, and vehicle simulation. Each domain folder contains project documentation, code, and results where publication is permitted; industry and team projects under confidentiality are documented at the overview level.
-
+A selection of my technical projects across electromagnetic simulation, CFD, machine learning, vehicle dynamics, and more.
 ---
 
 ## Domains
