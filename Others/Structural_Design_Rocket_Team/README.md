@@ -100,9 +100,9 @@ Multiple iterations were explored, refining the shape, weight distribution, and 
 
 ### Design Concepts
 <p align="center">
-  <img src="Images/img.png" alt="Initial CAD Design 1" width="50%">
-  <img src="Images/img_2.png" alt="Initial CAD Design 2" width="50%">
-  <img src="Images/img_1.png" alt="Initial CAD Design 3" width="50%">
+  <img src="Images/img.png" alt="Initial CAD Design 1" width="30%">
+  <img src="Images/img_2.png" alt="Initial CAD Design 2" width="30%">
+  <img src="Images/img_1.png" alt="Initial CAD Design 3" width="30%">
 </p>
 
 ---
@@ -153,10 +153,9 @@ The manufacturing process followed these steps:
 </p>
 
 ---
-This README provides an overview of the design, development, and implementation process for the **Anti-Buckling Ring**. 
- 
+
 For further details, please explore the repository's contents.
 
 <p align="center">
-  <img src="Images/img_9.png" alt="Summary Image" width="50%">
+  <img src="Images/img_9.png" alt="Summary Image" width="20%">
 </p>
