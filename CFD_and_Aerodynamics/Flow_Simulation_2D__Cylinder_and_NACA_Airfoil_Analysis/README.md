@@ -66,8 +66,5 @@ Building on the first lab, this lab focused on transient simulations of unsteady
 
 ---
 
-Both labs were compiled into comprehensive reports shared in this repository. While the original simulation files are unavailable, the results are reproducible using the provided documentation.
+Both labs were compiled into comprehensive reports shared in this repository.
 
-
-### Author 👨‍🔬
-- **Selim SHERIF**
