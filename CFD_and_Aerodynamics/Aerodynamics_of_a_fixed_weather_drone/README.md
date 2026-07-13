@@ -8,10 +8,10 @@ This project was undertaken as part of the **MECH-3640: HKUST Aerodynamics** cou
 - **Report Documentation**: LaTeX
 - **Numerical Simulation**: XFLR5
 
-## The 3 Key Takeaways 
-- Different methods can describe the same phenomenon but yield significantly varied results.
-- Numerical and experimental work requires thorough verification and validation.
-- Assumptions and simplifications must always be carefully considered when applying models.
+## Key Takeaways:
+- 1- Different methods can describe the same phenomenon but yield significantly varied results.
+- 2- Numerical and experimental work requires thorough verification and validation.
+- 3- Assumptions and simplifications must always be carefully considered when applying models.
 
 ## Project Overview 
 
