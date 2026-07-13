@@ -1,4 +1,4 @@
-# Particle Deposition Prediction Around a 90-Degree Bend  🌊
+# Particle Deposition Prediction Around a 90-Degree Bend.
 
 ### Context:
 This project was completed as part of the **[**CFD Dose**](https://www.cfddose.com/) Comprehensive Mentorship** program led by [**Mohamed Aly Sayed**](https://www.linkedin.com/in/mohamedsayedh/?originalSubdomain=ch).
@@ -16,13 +16,6 @@ This project was completed as part of the **[**CFD Dose**](https://www.cfddose.c
 - **Numerical Simulation**: [T-Flows](https://github.com/DelNov/T-Flows) *(See [More About T-Flows](#more-about-t-flows) below if unfamiliar)*
 - **Data Postprocessing**: MATLAB, ParaView, Shell Scripts
 - **Report Documentation**: LaTeX
-
-
-## Table of Contents
-1. [Overview](#overview)
-2. [Repository Structure](#repository-structure)
-3. [Simulation Results](#simulation-results)
-4. [References](#references)
 
 ---
 
@@ -70,13 +63,10 @@ Particle_Deposition_Prediction_in_a_90-Degree_Bend/
 
 ---
 
-### Author 👨‍🔬
-- **Selim Sherif**
----
 
 ## More About T-Flows
 
-**T-Flows** 🌊 is an **open-source CFD solver** optimized for **incompressible turbulent flows** with advanced **RANS, LES, and hybrid turbulence models**. It is designed for academic research and supports **Lagrangian particle tracking, heat transfer, and multiphase flows**.
+**T-Flows** is an **open-source CFD solver** optimized for **incompressible turbulent flows** with advanced **RANS, LES, and hybrid turbulence models**. It is designed for academic research and supports **Lagrangian particle tracking, heat transfer, and multiphase flows**.
 
 ### Why Use T-Flows?
 - **Optimized for High-Re Turbulent Flows**: Handles complex secondary flow structures.
