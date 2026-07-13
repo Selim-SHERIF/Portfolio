@@ -27,23 +27,6 @@ This project was completed as part of the **EPFL ME-474: Numerical Flow Simulati
 
 ---
 
-## Approach and Methodology
-
-1. **Geometry and Computational Domain:**
-    - Modeled the NACA 4417 airfoil with a chord length of 1 meter.
-    - Investigated height-to-chord ratios ($h/c$) ranging from 0.1 to 1.0.
-
-2. **Physical and Numerical Modeling:**
-    - Assumed incompressible, isothermal, and Newtonian fluid behavior.
-    - Applied the $k-\omega$ turbulence model for resolving near-wall effects.
-    - Simulations conducted using steady-state conditions in ANSYS Fluent.
-
-3. **Mesh Design and Convergence Study:**
-    - Hybrid meshing approach: structured grids for uniform flow regions and unstructured grids near the airfoil for resolving gradients.
-    - Convergence study with six progressively refined meshes to ensure accuracy.
-
----
-
 ## Results and Insights
 
 1. **Aerodynamic Characteristics:**
@@ -56,12 +39,6 @@ This project was completed as part of the **EPFL ME-474: Numerical Flow Simulati
 
 3. **Validation:**
     - The results aligned with experimental studies on similar airfoils, confirming the reliability of the numerical simulations.
-
----
-
-## Conclusion
-
-This study effectively demonstrated the impact of ground proximity on airfoil performance, offering insights for the design of low-altitude aircraft and ground-effect vehicles. The systematic mesh refinement ensured accurate results, highlighting the critical role of numerical validation in aerodynamic simulations.
 
 ---
 
