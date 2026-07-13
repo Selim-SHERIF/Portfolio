@@ -1,30 +1,21 @@
-# Numerical Flow Simulation of Ground Effect on an Airfoil ✈️
+# Numerical Flow Simulation of Ground Effect on an Airfoil 
 
 ### Context
 This project was completed as part of the **EPFL ME-474: Numerical Flow Simulation** course. The study explores the aerodynamic performance of a NACA 4417 airfoil in proximity to the ground, focusing on the effects of ground distance on lift and drag coefficients.
 
 ---
 
-## Tools Used 🛠️
-- **Software:** ANSYS Fluent, SpaceClaim, ANSYS Workbench
+## Tools Used 
+- **Software:** ANSYS Fluent, ANSYS Workbench
 - **Post-Processing:** ANSYS Fluent visualization tools
 - **Report Documentation:** LaTeX
 
 ---
 
-## The 3 Key Takeaways 📊
+## Key Takeaways:
 - **Automated Simulation Workflows:** Automating simulation processes can be highly beneficial, streamlining tasks and reducing manual errors.
 - **FLUENT as a Black Box:** While Ansys produces reliable outputs, it operates as a “black box,” meaning the underlying processes and computations remain hidden.
 - **Ground Effect on Lift:** The lift increase due to ground effect is minimal for typical aircraft wings; noticeable differences only occur when the aircraft is extremely close to the ground.
-
-## Table of Contents 📑
-
-1. [Project Objectives](#project-objectives)
-2. [Approach and Methodology](#approach-and-methodology)
-3. [Results and Insights](#results-and-insights)
-4. [Conclusion](#conclusion)
-5. [Future Work](#future-work)
-6. [References](#references)
 
 ---
 
@@ -33,23 +24,6 @@ This project was completed as part of the **EPFL ME-474: Numerical Flow Simulati
 1. Analyze how ground proximity influences aerodynamic characteristics such as lift and drag.
 2. Evaluate the effects of different height-to-chord ratios ($h/c$) and angles of attack ($\alpha = 4^\circ$ and $\alpha = 6^\circ$).
 3. Validate numerical results against experimental and theoretical data.
-
----
-
-## Approach and Methodology
-
-1. **Geometry and Computational Domain:**
-    - Modeled the NACA 4417 airfoil with a chord length of 1 meter.
-    - Investigated height-to-chord ratios ($h/c$) ranging from 0.1 to 1.0.
-
-2. **Physical and Numerical Modeling:**
-    - Assumed incompressible, isothermal, and Newtonian fluid behavior.
-    - Applied the $k-\omega$ turbulence model for resolving near-wall effects.
-    - Simulations conducted using steady-state conditions in ANSYS Fluent.
-
-3. **Mesh Design and Convergence Study:**
-    - Hybrid meshing approach: structured grids for uniform flow regions and unstructured grids near the airfoil for resolving gradients.
-    - Convergence study with six progressively refined meshes to ensure accuracy.
 
 ---
 
@@ -65,12 +39,6 @@ This project was completed as part of the **EPFL ME-474: Numerical Flow Simulati
 
 3. **Validation:**
     - The results aligned with experimental studies on similar airfoils, confirming the reliability of the numerical simulations.
-
----
-
-## Conclusion
-
-This study effectively demonstrated the impact of ground proximity on airfoil performance, offering insights for the design of low-altitude aircraft and ground-effect vehicles. The systematic mesh refinement ensured accurate results, highlighting the critical role of numerical validation in aerodynamic simulations.
 
 ---
 

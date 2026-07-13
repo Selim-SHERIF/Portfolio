@@ -3,17 +3,17 @@
 ### Context
 This project is a set of two labs undertaken as part of the **HKUST MECH-4830: Introduction to Aerospace CFD** course.
 
-## Tools Used 🛠️
+## Tools Used 
 - **Data Postprocessing**: Matlab, Paraview, ShellScript
 - **Report Documentation**: LaTeX
 - **Numerical Simulation**: OpenFOAM
 
-## The 3 Key Takeaways 📊
-- CFD is a complex field with numerous variables and assumptions to consider.
+## Key Takeaways: 
+- CFD is a complex multidisciplinary field with numerous variables and assumptions. It requires lots of knowledge and care to be applied correctly.
 - A CFD simulation is assumed incorrect until proven otherwise.
 - Proper data recording and saving practices are crucial for successful projects.
 
-## Project Overview 🌐
+## Project Overview:
 The goal of these labs was to develop a practical understanding of the OpenFOAM software. The labs focused on analyzing fluid flow in steady and unsteady conditions.
 
 ---
@@ -66,8 +66,5 @@ Building on the first lab, this lab focused on transient simulations of unsteady
 
 ---
 
-Both labs were compiled into comprehensive reports shared in this repository. While the original simulation files are unavailable, the results are reproducible using the provided documentation.
+Both labs were compiled into comprehensive reports shared in this repository.
 
-
-### Author 👨‍🔬
-- **Selim SHERIF**
