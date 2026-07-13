@@ -1,86 +1,28 @@
-# Development of a Formula Student Lap Time Simulator 🏎️
+# Others
+
+A collection of engineering and scientific computing projects spanning coursework, research, and extracurricular team projects — reflecting the range of my work across my M.Sc. in Computational Science and Engineering and my involvement in EPFL's student engineering teams.
 
 ---
 
-## 🚀 Context
-This project is being developed as part of the **EPFL Racing Team**. It builds on years of contributions from previous developers and aims to create a **Lap Time Simulator (LTS)** that evaluates and optimizes car performance. The LTS is a critical tool for enabling data-driven engineering decisions in the highly competitive Formula Student racing environment.
+## Projects
 
----
+```
+Others/
+├── Scientific_Computing_Eigensolver
+├── Caroms_Billiard_Game
+├── High_Performance_Computing
+├── Investments_Strategic_International_Asset_Allocation
+├── Semester_Project_Isoparametric_boundary_conformal_layer_approximation
+├── Structural_Design_Rocket_Team
+└── Vehicle_Dynamics_Racing_Team
+```
 
-## ⚠️ Disclaimer
-This project is **closed-source**, and implementation details cannot be shared publicly. This README provides an overview of the project's purpose, tools, challenges, and significance. For more specific details feel free to reach out!
-
----
-
-## 🛠️ Tools & Technologies
-- **Software**: Matlab’s Simulink, Matlab, Simscape
-- **Coding Paradigm**: Connective-based, modular system modeling
-
----
-
-## 🎯 Motivation
-This project offers a chance to work on **numerical modeling**, **simulation**, and **motorsports engineering**, areas of strong interest and relevance to me. Developing the Lap Time Simulator combines technical challenges with practical applications, providing insights into race car performance optimization.
-
-It is an opportunity to refine technical skills, apply advanced simulation techniques, and tackle real-world engineering problems while contributing to a team.
-
----
-
-## 📖 Table of Contents
-1. [Overview of the Simulator](#overview-of-the-simulator)
-2. [Challenges and Insights](#challenges-and-insights)
-3. [Key Applications](#key-applications)
-4. [Future Work](#future-work)
-
----
-
-## Overview of the Simulator
-
-![img.png](img.png)
-The **Lap Time Simulator (LTS)** is designed using **Matlab’s Simulink** and a **connective-based, modular system modeling approach**. This modular structure divides the car into individual components for targeted analysis and seamless improvements:
-- **Suspension Block**: Simulates the car's dynamic response under varying conditions.
-- **Tire Block**: Captures the critical interaction between the tire and road surface, essential for performance optimization.
-- **Driver Model**: Mimics driver behavior and decision-making on the track.
-- **Vehicle/Velocity-yaw Block**: Represents the car dynamics and kinematics by applying conservation laws to the whole car.
-
-The goal is to ensure components integrate seamlessly with others, enabling a detailed and comprehensive simulation of the car’s behavior over a lap.
-
----
-
-## Challenges and Insights
-
-Developing a sophisticated simulator like the LTS involves overcoming several technical challenges:
-
-1. **Numerical Stability**: Maintaining system stability during complex calculations, especially under extreme performance conditions.
-2. **Modeling Accuracy**: Striking the right balance between precision and computational efficiency without oversimplifying critical components.
-3. **Tire Model Complexity**: The tire model is the most intricate aspect, focusing on **tire-road patch interaction**, the core area where performance forces are generated.
-
-Collaborating with teammates to solve these challenges is an engaging process, creating a never-ending feedback loop of constant improvement.
-
----
-
-##  Key Applications
-
-The **Lap Time Simulator** serves as a strategic asset for the team, enabling:
-
-1. **Design Validation**: Evaluating whether proposed modifications are impactful enough to justify implementation.
-2. **Rapid Iteration**: Facilitating quick assessments of last-minute design changes to ensure optimal performance.
-3. **Digital Twin Development**: Creating a virtual replica of the car, with potential for future enhancements, such as integrating a **driver-in-the-loop** simulation.
-
-These applications demonstrate the simulator's role in driving innovation and maintaining competitive performance levels within the EPFL Racing Team.
-
----
-
-## Future Work
-
-To further enhance the Lap Time Simulator, the following improvements are planned:
-
-- **Enhanced Driver Model**: Incorporating more nuanced driver behaviors and decision-making processes.
-- **User Interface Improvements**: Developing a more intuitive interface for easier interaction and analysis.
-- **Driver-in-the-loop Integration**: Implementing a system to simulate real-time driver inputs within the simulator.
-- **Accuracy Refinements**: Further refining the simulation accuracy for more precise performance predictions.
-
-These future developments aim to increase the simulator's accuracy, usability, and overall impact on the team's engineering decisions.
-
----
-
-
+| Project | Description | Tools |
+|---|---|---|
+| [Eigenvalue Solver](./Scientific_Computing_Eigensolver) | A C++ eigenvalue solver library built for EPFL MATH-458, designed around polymorphic solver classes (power method, inverse power, QR) with full unit testing and Doxygen documentation. Focus on software quality: modularity, extensibility, and test coverage. | C++, CMake, GoogleTest, Doxygen |
+| [Carom Billiard Simulator](./Caroms_Billiard_Game) | Physics simulation of carom billiards: elastic collisions, friction models, and trajectory generation with automated score-sheet output. | Python |
+| [High-Performance Computing](./High_Performance_Computing) | Two MATH-454 course projects on MPI/CUDA parallelization: a Conjugate Gradient solver profiled and scaled with MPI, and a Shallow Water Equation solver extended from MPI to GPU acceleration with CUDA. Includes strong/weak scaling analysis against Amdahl's and Gustafson's laws. | MPI, CUDA, C++, perf |
+| [Investments: Strategic International Asset Allocation](./Investments_Strategic_International_Asset_Allocation) | FIN-405 course project studying international diversification, currency hedging, and predictive signals (momentum, reversal, carry, dollar) across seven markets, culminating in a mean-variance optimized fund benchmarked against Fama-French factors. | Python, OLS regression |
+| [Isoparametric Boundary Conformal Layers](./Semester_Project_Isoparametric_boundary_conformal_layer_approximation) | Semester project approximating composite spline mappings for trimmed-surface boundary layers with a single NURBS spline, including an h-p convergence study and a static structural analysis of the approximation's impact on simulation accuracy. | Isogeometric Analysis, NURBS/Splines |
+| [Anti-Buckling Ring — EPFL Rocket Team](./Structural_Design_Rocket_Team) | CAD design of a structural ring reinforcing the carbon fiber load-bearing rods of the EPFL Rocket Team's bi-liquid rocket, developed through topology optimization and refined for CNC manufacturing. | SolidWorks, 3DEXPERIENCE |
+| [Lap Time Simulator — EPFL Racing Team](./Vehicle_Dynamics_Racing_Team) | Modular Formula Student lap time simulator built around suspension, tire, driver, and vehicle-dynamics blocks, used for design validation and rapid iteration on car setup. *(Closed-source — overview only.)* | Simulink, Simscape, MATLAB |

@@ -2,12 +2,12 @@
 
 ---
 
-## 🚀 Context
+##  Context
 
 This project was developed as part of the **EPFL Rocket Team**, where I contributed as a member of the **Structural Engineering division**. My primary responsibility was the conception, development, and refinement of several CAD models and components. One of the most significant contributions I made was the **Anti-Buckling Ring**, a crucial element in ensuring the structural integrity of the rocket.
 
 ---
-## 📊 The 3 Key Takeaways
+##  Key Takeaways:
 
 1. **Solve Real Problems:**  
    As Elon Musk said, "An engineer's biggest mistake is optimizing for a problem that doesn’t exist." I focused on addressing actual structural challenges rather than unnecessary optimizations.
@@ -19,20 +19,20 @@ This project was developed as part of the **EPFL Rocket Team**, where I contribu
    You don’t need to be an expert to contribute meaningfully—curiosity and persistence can drive progress.
 
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 
 - **CAD Software:** SolidWorks, 3DEXPERIENCE
 
 ---
 
-## 🎯 Motivation
+##  Motivation
 
 This project was an opportunity to apply the technical knowledge I gained in my early university years to a real-world engineering challenge. It allowed me to:
 - Design structural components for aerospace applications.
 - Work within a structured engineering workflow and collaborate with a team.
 
 
-## 📖 Table of Contents
+##  Table of Contents
 
 1. [Overview of the Project](#overview-of-the-project)
 2. [Goal of the Component](#goal-of-the-component)
