@@ -1,30 +1,21 @@
-# Numerical Flow Simulation of Ground Effect on an Airfoil ✈️
+# Numerical Flow Simulation of Ground Effect on an Airfoil 
 
 ### Context
 This project was completed as part of the **EPFL ME-474: Numerical Flow Simulation** course. The study explores the aerodynamic performance of a NACA 4417 airfoil in proximity to the ground, focusing on the effects of ground distance on lift and drag coefficients.
 
 ---
 
-## Tools Used 🛠️
-- **Software:** ANSYS Fluent, SpaceClaim, ANSYS Workbench
+## Tools Used 
+- **Software:** ANSYS Fluent, ANSYS Workbench
 - **Post-Processing:** ANSYS Fluent visualization tools
 - **Report Documentation:** LaTeX
 
 ---
 
-## The 3 Key Takeaways 📊
+## Key Takeaways:
 - **Automated Simulation Workflows:** Automating simulation processes can be highly beneficial, streamlining tasks and reducing manual errors.
 - **FLUENT as a Black Box:** While Ansys produces reliable outputs, it operates as a “black box,” meaning the underlying processes and computations remain hidden.
 - **Ground Effect on Lift:** The lift increase due to ground effect is minimal for typical aircraft wings; noticeable differences only occur when the aircraft is extremely close to the ground.
-
-## Table of Contents 📑
-
-1. [Project Objectives](#project-objectives)
-2. [Approach and Methodology](#approach-and-methodology)
-3. [Results and Insights](#results-and-insights)
-4. [Conclusion](#conclusion)
-5. [Future Work](#future-work)
-6. [References](#references)
 
 ---
 
