@@ -36,7 +36,11 @@ Uses the 1D KSE as a minimal chaos model: sensitivity to initial conditions, Lya
 ```
 Turbulence_Finite_Reynolds_and_Skeleton_of_Chaos/
 ├── README.md
-└── Turbulence_Project_Report.pdf   # Full report
+├── Turbulence_Project_Report.pdf   # Full report
+├── EPFL_ME467_K42.zip              # Part I: finite-Reynolds-number turbulence analysis code
+└── EPFL_ME467_Chaos_Theory.zip     # Part II: KSE chaos / equilibria / UPO analysis code
 ```
+- **EPFL_ME467_K42.zip**: MATLAB functions and scripts, data, for Part I — autocorrelation, energy spectrum, structure functions, PDFs, and flatness analysis.
+- **EPFL_ME467_Chaos_Theory.zip**: MATLAB functions and scripts for Part II — KSE integration, Lyapunov exponents, equilibrium and UPO solvers.
 
 ---
