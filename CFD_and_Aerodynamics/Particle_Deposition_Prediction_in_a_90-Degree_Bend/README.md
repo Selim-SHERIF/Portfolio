@@ -5,14 +5,14 @@ This project was completed as part of the **[**CFD Dose**](https://www.cfddose.c
 
 ---
 
-## 3 Key Takeaways 📊
+## Key Takeaways:
 1. **Turbulence Modeling Matters**: The choice of turbulence models (e.g., k-ε, RANS/LES) significantly impacts deposition accuracy.  
 2. **Particle Deposition Behavior**: Deposition efficiency follows an **S-shaped (logistic-like) curve** with particle size.  
 3. **Open-Source Trade-off**: Open-source CFD tools offer **greater customizability** but are **more complex to set up and run**.  
 
 ---
 
-## Tools Used 🛠️
+## Tools Used:
 - **Numerical Simulation**: [T-Flows](https://github.com/DelNov/T-Flows) *(See [More About T-Flows](#more-about-t-flows) below if unfamiliar)*
 - **Data Postprocessing**: MATLAB, ParaView, Shell Scripts
 - **Report Documentation**: LaTeX
