@@ -44,12 +44,3 @@ Turbulence_Finite_Reynolds_and_Skeleton_of_Chaos/
 - **EPFL_ME467_Chaos_Theory.zip**: MATLAB functions and scripts for Part II — KSE integration, Lyapunov exponents, equilibrium and UPO solvers.
 
 ---
-
-## References
-1. Yoon, K., & Warhaft, Z. (1990). *The evolution of grid-generated turbulence under conditions of stable thermal stratification*. J. Fluid Mechanics.
-2. Cvitanović, P., Davidchack, R. L., & Siminos, E. (2005). *On the state space geometry of the Kuramoto-Sivashinsky flow in a periodic domain*. J. Physics: Conf. Series, 23(1), 33-47.
-3. Frisch, U. (1995). *Turbulence: The Legacy of A.N. Kolmogorov*. Cambridge University Press.
-4. Pope, S. B. (2000). *Turbulent Flows*. Cambridge University Press.
-5. Higgins, C., Froidevaux, M., & Simeonov, V. (2012). *The effect of scale on the applicability of Taylor's frozen turbulence hypothesis in the atmospheric boundary layer*. Boundary-Layer Meteorology.
-6. Tong, C. (1996). *Taylor's hypothesis and two-point coherence measurements*. Boundary-Layer Meteorology.
-7. CFD-Wiki Contributors. *Turbulence dissipation rate*. [Link](https://www.cfd-online.com/Wiki/Turbulence_dissipation_rate)
