@@ -18,3 +18,9 @@ A selection of my technical projects across electromagnetic simulation, CFD, mac
 
 - **Email**: selimsherif@outlook.com
 - **LinkedIn**: [linkedin.com/in/selim-sherif](https://www.linkedin.com/in/selim-sherif/)
+
+---
+
+## License
+
+Original code in this repository is licensed under the [MIT License](./LICENSE). Course reports, datasets, and third-party materials retain their original terms and are included for portfolio purposes.
